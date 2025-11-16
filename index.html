@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Win Corp – Knitwear & Textile Consulting Specialists</title>
+    <meta name="description" content="End-to-end consulting to set up and optimize knitwear and textile manufacturing units—plant layout, machinery selection, workflow design, vendor networks, quality & compliance. Coimbatore, India." />
+    <meta name="keywords" content="knitwear consulting Coimbatore, textile industry setup consultant India, knitwear factory setup guidance, textile manufacturing consultant Tamil Nadu, garment production consultation, dyeing unit consulting, textile process optimization, vendor alignment, machinery selection, workflow engineering, quality & compliance" />
+
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+
+    <!-- AOS - Animate On Scroll Library (kept for other sections, not Services/Values) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/SplitText.min.js"></script>
+
+    <style>
+      /* Ensure AOS elements are visible before library loads */
+      [data-aos] {
+        opacity: 1 !important;
+        transform: none !important;
+        visibility: visible !important;
+      }
+      /* Let AOS take over once initialized */
+      html:not(.no-js) [data-aos].aos-init {
+        opacity: 0;
+      }
+      html:not(.no-js) [data-aos].aos-animate {
+        opacity: 1;
+      }
+    </style>
+
+    <!-- New purple favicon to match brand -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%235C2EA5'/%3E%3Ctext x='50' y='62' font-size='58' text-anchor='middle' fill='white' font-family='Arial,Helvetica,sans-serif' font-weight='700'%3EW%3C/text%3E%3C/svg%3E">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- HEADER -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo" aria-label="Win Corp Home">
+          <img class="logo-img" src="images/win-logo.png" alt="Win Corp logo" />
+          <span class="logo-type">Win Corp</span>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="nav-desktop" aria-label="Primary Navigation">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">
+                <span class="nav-link-text">Home</span>
+                <span class="nav-link-underline"></span>
+              </a>
+            </li>
+            <li class="nav-item has-dropdown">
+              <a href="service.html" class="nav-link">
+                <span class="nav-link-text">Services</span>
+                <svg class="dropdown-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+                <span class="nav-link-underline"></span>
+              </a>
+              <div class="dropdown-menu">
+                <div class="dropdown-content">
+                  <a href="index.html#services" class="dropdown-item">
+                    <div class="dropdown-item-icon">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="14" width="7" height="7"></rect>
+                        <rect x="3" y="14" width="7" height="7"></rect>
+                      </svg>
+                    </div>
+                    <span>All Services</span>
+                  </a>
+                  <a href="service.html#services" class="dropdown-item">
+                    <div class="dropdown-item-icon">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                      </svg>
+                    </div>
+                    <span>Service Metrics</span>
+                  </a>
+                  <a href="about.html#clients" class="dropdown-item">
+                    <div class="dropdown-item-icon">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                      </svg>
+                    </div>
+                    <span>Case Studies</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">
+                <span class="nav-link-text">About</span>
+              </a>
+            </li>
+            <li class="nav-item has-dropdown">
+              <a href="about.html#impact" class="nav-link">
+                <span class="nav-link-text">Resources</span>
+                <svg class="dropdown-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+                <span class="nav-link-underline"></span>
+              </a>
+              <div class="dropdown-menu">
+                <div class="dropdown-content">
+                  <a href="about.html#impact" class="dropdown-item">
+                    <div class="dropdown-item-icon">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                      </svg>
+                    </div>
+                    <span>Why Coimbatore</span>
+                  </a>
+                  <a href="index.html#faq" class="dropdown-item">
+                    <div class="dropdown-item-icon">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                        <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                      </svg>
+                    </div>
+                    <span>FAQ</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">
+                <span class="nav-link-text">Contact</span>
+                <span class="nav-link-underline"></span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="nav-toggle" aria-controls="nav-mobile" aria-expanded="false" aria-label="Toggle navigation menu">
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+        </button>
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-menu-overlay"></div>
+        <nav id="nav-mobile" class="nav-mobile" aria-label="Mobile Navigation">
+          <div class="nav-mobile-header">
+            <span class="nav-mobile-title">Menu</span>
+            <button class="nav-mobile-close" aria-label="Close menu">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+              </svg>
+            </button>
+          </div>
+          <ul class="nav-mobile-list">
+            <li class="nav-mobile-item">
+              <a href="index.html" class="nav-mobile-link">
+                <svg class="nav-mobile-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                </svg>
+                <span>Home</span>
+              </a>
+            </li>
+            <li class="nav-mobile-item has-submenu">
+              <a href="service.html" class="nav-mobile-link">
+                <svg class="nav-mobile-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="3" width="7" height="7"></rect>
+                  <rect x="14" y="3" width="7" height="7"></rect>
+                  <rect x="14" y="14" width="7" height="7"></rect>
+                  <rect x="3" y="14" width="7" height="7"></rect>
+                </svg>
+                <span>Services</span>
+                <svg class="submenu-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </a>
+              <ul class="nav-mobile-submenu">
+                <li><a href="index.html#services" class="nav-mobile-sublink">All Services</a></li>
+                <li><a href="service.html#services" class="nav-mobile-sublink">Service Metrics</a></li>
+                <li><a href="about.html#clients" class="nav-mobile-sublink">Case Studies</a></li>
+              </ul>
+            </li>
+            <li class="nav-mobile-item has-submenu">
+              <a href="about.html" class="nav-mobile-link">
+                <svg class="nav-mobile-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="12" y1="8" x2="12" y2="16"></line>
+                  <line x1="8" y1="12" x2="16" y2="12"></line>
+                </svg>
+                <span>About</span>
+                <svg class="submenu-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </a>
+              <ul class="nav-mobile-submenu">
+                <li><a href="index.html#values" class="nav-mobile-sublink">Values</a></li>
+                <li><a href="about.html#founder-about" class="nav-mobile-sublink">Founder</a></li>
+                <li><a href="about.html#impact" class="nav-mobile-sublink">Impact</a></li>
+              </ul>
+            </li>
+            <li class="nav-mobile-item has-submenu">
+              <a href="about.html#impact" class="nav-mobile-link">
+                <svg class="nav-mobile-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                </svg>
+                <span>Resources</span>
+                <svg class="submenu-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </a>
+              <ul class="nav-mobile-submenu">
+                <li><a href="about.html#impact" class="nav-mobile-sublink">Why Coimbatore</a></li>
+                <li><a href="index.html#faq" class="nav-mobile-sublink">FAQ</a></li>
+              </ul>
+            </li>
+            <li class="nav-mobile-item">
+              <a href="contact.html" class="nav-mobile-link nav-mobile-link-highlight">
+                <svg class="nav-mobile-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <span>Contact</span>
+              </a>
+            </li>
+          </ul>
+          <div class="nav-mobile-footer">
+            <a href="tel:+919894940792" class="nav-mobile-phone">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+              <span>+91 98949 40792</span>
+            </a>
+          </div>
+        </nav>
+
+        <!-- Desktop CTA -->
+        <div class="header-cta">
+          <a href="tel:+919894940792" class="header-phone">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            <span>+91 98949 40792</span>
+          </a>
+          <a href="contact.html" class="btn btn-header">Get Consultation</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main id="main">
+      <!-- HERO -->
+      <section class="hero section">
+        <div class="container grid-hero">
+<div class="hero-copy reveal">
+  <p class="eyebrow hero-eyebrow">
+    Knitwear & Textile Consulting • Coimbatore, India
+  </p>
+  <h1 class="hero-title">
+    Building Excellence in Knitwear & Textile Manufacturing
+  </h1>
+  <p class="lead hero-lead">
+    From concept to production, we design layouts, map machinery &amp; vendors, engineer workflows, and implement quality &amp; compliance—so your factory launches fast and scales predictably.
+  </p>
+  <div class="cta-wrap hero-cta">
+    <a href="contact.html" class="btn">Get in touch</a>
+    <a href="index.html#services" class="btn btn-ghost">Explore services</a>
+  </div>
+  <div class="kpis reveal">
+    ...
+  </div>
+</div>
+
+        </div>
+        <svg class="hero-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" preserveAspectRatio="none">
+          <path d="M0,64 C360,100 720,20 1080,64 C1320,90 1440,40 1440,40 L1440,120 L0,120 Z" fill="#faf7ff"/>
+        </svg>
+      </section>
+
+      <!-- STRIP -->
+      <section class="strip section reveal">
+        <div class="container strip-inner">
+          <p class="strip-text">Setup. Scale. Succeed. — Where strategy meets production.</p>
+        </div>
+      </section>
+
+<!-- SERVICES -->
+      <!-- SERVICES -->
+      <section id="services" class="section services">
+        <div class="container services-mega-inner">
+          <header class="services-mega-header">
+            <p class="eyebrow">What we do</p>
+
+            <!-- Mega Typo  graphy Header -->
+            <div class="services-mega-words" aria-hidden="true">
+              <div class="mega-word" data-step="1">Setup</div>
+              <div class="mega-word" data-step="2">Processing</div>
+              <div class="mega-word" data-step="3">Optimize</div>
+              <div class="mega-word" data-step="4">Supply</div>
+              <div class="mega-word" data-step="5">Quality</div>
+            </div>
+
+            <!-- Accessible heading & subtitle -->
+            <h2 class="services-mega-title">End-to-end knitwear & textile consulting</h2>
+            <p class="services-mega-subtitle">
+              Execution-first consulting for modern, efficient, audit-ready factories — from first machine to steady-state flow.
+            </p>
+          </header>
+
+          <!-- Centered services list -->
+          <div class="services-mega-list">
+            <article class="service-item" data-step="1">
+              <span class="service-item-index">01</span>
+              <div class="service-accent-bar" aria-hidden="true"></div>
+              <div class="service-tag">Setup</div>
+              <h3>Knitwear &amp; Garment Unit Setup</h3>
+              <p>End-to-end project planning, production line design, machinery recommendations, and manpower training.</p>
+              <ul class="service-bullets">
+                <li>Line balancing &amp; takt time</li>
+                <li>Capex roadmap</li>
+                <li>Training playbooks</li>
+              </ul>
+            </article>
+
+            <article class="service-item" data-step="2">
+              <span class="service-item-index">02</span>
+              <div class="service-accent-bar" aria-hidden="true"></div>
+              <div class="service-tag">Processing</div>
+              <h3>Textile Processing Facility Setup</h3>
+              <p>Weaving, dyeing, printing, and finishing—layout for flow, technology choices, and automation guidance.</p>
+              <ul class="service-bullets">
+                <li>Wet-processing layout</li>
+                <li>Utilities planning</li>
+                <li>Safety &amp; compliance</li>
+              </ul>
+            </article>
+
+            <article class="service-item" data-step="3">
+              <span class="service-item-index">03</span>
+              <div class="service-accent-bar" aria-hidden="true"></div>
+              <div class="service-tag">Ops</div>
+              <h3>Workflow &amp; Process Optimization</h3>
+              <p>Lean practices, waste reduction, throughput improvement, productivity benchmarking, and cost control.</p>
+              <ul class="service-bullets">
+                <li>SMED &amp; Kaizen</li>
+                <li>IE studies</li>
+                <li>Cost-per-piece</li>
+              </ul>
+            </article>
+
+            <article class="service-item" data-step="4">
+              <span class="service-item-index">04</span>
+              <div class="service-accent-bar" aria-hidden="true"></div>
+              <div class="service-tag">Supply</div>
+              <h3>Vendor &amp; Supply Chain Development</h3>
+              <p>Machinery suppliers, raw material sourcing, logistics, maintenance networks, and service alignment.</p>
+              <ul class="service-bullets">
+                <li>Preferred vendor lists</li>
+                <li>Spares &amp; uptime</li>
+                <li>Logistics alignment</li>
+              </ul>
+            </article>
+
+            <article class="service-item" data-step="5">
+              <span class="service-item-index">05</span>
+              <div class="service-accent-bar" aria-hidden="true"></div>
+              <div class="service-tag">QC</div>
+              <h3>Quality &amp; Compliance Advisory</h3>
+              <p>Standards implementation, testing protocols, documentation, and audit readiness for export markets.</p>
+              <ul class="service-bullets">
+                <li>SOPs &amp; inline checks</li>
+                <li>Lab &amp; testing</li>
+                <li>Buyer audits</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- VALUES -->
+      <section id="values" class="section alt values-cards">
+        <svg class="values-wave-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" preserveAspectRatio="none">
+          <path d="M0,64 C360,100 720,20 1080,64 C1320,90 1440,40 1440,40 L1440,120 L0,120 Z" fill="#faf7ff"/>
+        </svg>
+        <div class="container">
+          <header class="section-header values-header">
+            <h2>Values</h2>
+            <div class="underline" aria-hidden="true"></div>
+            <p>Principles that shape every recommendation.</p>
+          </header>
+          <div class="values-grid">
+            <article class="value-card" data-value="1">
+              <div class="value-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                </svg>
+              </div>
+              <h3>Integrity in Guidance</h3>
+              <p>Transparent, experience-backed advice—vendor-neutral, outcome-focused.</p>
+            </article>
+            <article class="value-card" data-value="2">
+              <div class="value-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                  <polyline points="22 4 12 14.01 9 11.01"/>
+                </svg>
+              </div>
+              <h3>Quality-Driven</h3>
+              <p>Systems that raise first-time-right output and buyer compliance.</p>
+            </article>
+            <article class="value-card" data-value="3">
+              <div class="value-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+                </svg>
+              </div>
+              <h3>Efficiency & Optimization</h3>
+              <p>Lean, IE studies, and measured improvements on lead time & cost.</p>
+            </article>
+            <article class="value-card" data-value="4">
+              <div class="value-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                  <circle cx="12" cy="7" r="4"/>
+                </svg>
+              </div>
+              <h3>Customer-Centric</h3>
+              <p>Plans tailored to your mix, markets, capex and scale goals.</p>
+            </article>
+            <article class="value-card" data-value="5">
+              <div class="value-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                </svg>
+              </div>
+              <h3>Sustainable Growth</h3>
+              <p>Energy-aware choices and future-ready process decisions.</p>
+            </article>
+            <article class="value-card" data-value="6">
+              <div class="value-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                  <circle cx="9" cy="7" r="4"/>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                </svg>
+              </div>
+              <h3>Partnership Mindset</h3>
+              <p>We stay through implementation and steady-state stabilization.</p>
+            </article>
+          </div>
+        </div>
+        <svg class="values-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" preserveAspectRatio="none">
+          <path d="M0,64 C360,100 720,20 1080,64 C1320,90 1440,40 1440,40 L1440,120 L0,120 Z" fill="#faf7ff"/>
+        </svg>
+      </section>
+
+      <!-- ABOUT US / FOUNDERS -->
+      <section id="founder-home " class="section about-us">
+        <div class="container about-us-grid">
+          <!-- Left: Content -->
+          <div class="about-us-content">
+            <header class="about-us-header">
+              <div class="about-eyebrow">Our Story</div>
+              <h2 class="about-title">About Us</h2>
+              <div class="about-accent-line"></div>
+            </header>
+            <div class="about-description">
+              <p class="about-lead">Win Corp was founded by two textile industry veterans with a shared vision: to transform textile manufacturing through strategic consulting and hands-on expertise.</p>
+              <p>With decades of combined experience across Coimbatore, Tiruppur, and regional clusters, our founders bring unparalleled knowledge in machinery selection, workflow optimization, vendor alignment, and quality systems.</p>
+              <p>Our mission is simple yet powerful: build efficient, competitive, and future-ready production environments that help our clients succeed in the global textile market.</p>
+            </div>
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <div class="highlight-number" data-target="25" data-suffix="+">0</div>
+                <div class="highlight-label">Years Combined Experience</div>
+              </div>
+              <div class="highlight-item">
+                <div class="highlight-number" data-target="100" data-suffix="+">0</div>
+                <div class="highlight-label">Projects Delivered</div>
+              </div>
+              <div class="highlight-item">
+                <div class="highlight-number" data-target="50" data-suffix="+">0</div>
+                <div class="highlight-label">Happy Clients</div>
+              </div>
+            </div>
+          </div>
+          <!-- Right: Founders -->
+          <div class="about-us-founders">
+            <div class="founder-card founder-card-1">
+              <div class="founder-image-wrapper">
+                <div class="founder-image">
+                  <img src="./images/founder-1.png" alt="Co-Founder 1" />
+                </div>
+                <div class="founder-overlay"></div>
+              </div>
+              <div class="founder-info">
+                <h3>  </h3>
+                <p class="founder-role">Founder & CEO <br> <span class="homepage-founder-name">Mr Shanmugam Venugopal</span></p>
+                <p class="founder-bio">Expert in textile manufacturing setup and process optimization with 15+ years of industry experience.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" class="section faq-section">
+        <div class="container narrow">
+          <header class="section-header reveal faq-header">
+            <p class="eyebrow faq-eyebrow">Got Questions?</p>
+            <h2 class="faq-typewriter" data-typewriter-texts='["Frequently Asked Questions", "How Can We Help You?", "Your Questions Answered", "Need Expert Guidance?"]'>Frequently Asked Questions</h2>
+            <div class="faq-accent-line"></div>
+            <p class="faq-subtitle">Find answers to common questions about our consulting services</p>
+          </header>
+          <div class="faq-grid">
+            <details class="faq reveal">
+              <summary>
+                <span class="faq-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 12h18M3 6h18M3 18h18"/>
+                  </svg>
+                </span>
+                <span class="faq-question">What industries do you specialize in?</span>
+                <span class="faq-arrow">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="6 9 12 15 18 9"/>
+                  </svg>
+                </span>
+              </summary>
+              <div class="faq-content">
+                <p>We specialize in knitwear/hosiery, woven textiles, dyeing & finishing, garment production, printing, and technical textiles. Our expertise covers the complete textile manufacturing ecosystem.</p>
+              </div>
+            </details>
+            <details class="faq reveal">
+              <summary>
+                <span class="faq-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                    <circle cx="8.5" cy="7" r="4"/>
+                    <polyline points="17 11 19 13 23 9"/>
+                  </svg>
+                </span>
+                <span class="faq-question">Can you assist first-time entrepreneurs?</span>
+                <span class="faq-arrow">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="6 9 12 15 18 9"/>
+                  </svg>
+                </span>
+              </summary>
+              <div class="faq-content">
+                <p>Absolutely! We provide end-to-end support including business planning, machinery recommendations, vendor network development, workforce training, and ongoing operational guidance. We've helped numerous first-time entrepreneurs successfully launch their textile businesses.</p>
+              </div>
+            </details>
+            <details class="faq reveal">
+              <summary>
+                <span class="faq-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                    <circle cx="12" cy="7" r="4"/>
+                  </svg>
+                </span>
+                <span class="faq-question">Do you provide on-site support?</span>
+                <span class="faq-arrow">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="6 9 12 15 18 9"/>
+                  </svg>
+                </span>
+              </summary>
+              <div class="faq-content">
+                <p>Yes, we provide comprehensive on-site support throughout your project. We coordinate directly with your team, suppliers, and technicians during implementation to ensure seamless execution and successful outcomes.</p>
+              </div>
+            </details>
+            <details class="faq reveal">
+              <summary>
+                <span class="faq-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+                  </svg>
+                </span>
+                <span class="faq-question">Can you improve productivity in existing factories?</span>
+                <span class="faq-arrow">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="6 9 12 15 18 9"/>
+                  </svg>
+                </span>
+              </summary>
+              <div class="faq-content">
+                <p>Yes! We specialize in operational optimization for existing facilities. Our services include bottleneck diagnosis, workflow redesign, waste reduction strategies, and throughput improvement initiatives that deliver measurable results.</p>
+              </div>
+            </details>
+            <details class="faq reveal">
+              <summary>
+                <span class="faq-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                    <circle cx="12" cy="10" r="3"/>
+                  </svg>
+                </span>
+                <span class="faq-question">What geographies do you serve?</span>
+                <span class="faq-arrow">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="6 9 12 15 18 9"/>
+                  </svg>
+                </span>
+              </summary>
+              <div class="faq-content">
+                <p>We primarily serve Coimbatore, Tiruppur, Erode, and surrounding textile clusters in Tamil Nadu. We also provide extended consulting support across India for clients in other regions.</p>
+              </div>
+            </details>
+            <details class="faq reveal">
+              <summary>
+                <span class="faq-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                    <line x1="9" y1="9" x2="15" y2="15"/>
+                    <line x1="15" y1="9" x2="9" y2="15"/>
+                  </svg>
+                </span>
+                <span class="faq-question">Do you help with machinery selection and vendor connections?</span>
+                <span class="faq-arrow">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="6 9 12 15 18 9"/>
+                  </svg>
+                </span>
+              </summary>
+              <div class="faq-content">
+                <p>Absolutely! We leverage our extensive network of trusted suppliers and industry connections to help you procure reliable equipment and establish strong vendor relationships. Our vendor-neutral approach ensures you get the best value and service support for your investment.</p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <svg class="footer-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" preserveAspectRatio="none">
+        <path d="M0,64 C360,100 720,20 1080,64 C1320,90 1440,40 1440,40 L1440,120 L0,120 Z" fill="#faf7ff"/>
+      </svg>
+      <div class="container footer-inner">
+        <!-- Brand Column -->
+        <div class="footer-brand">
+          <img class="footer-logo-img" src="images/win-logo.png" alt="Win Corp Logo" />
+          <span class="logo-type">Win Corp Consulting</span>
+          <p class="footer-tagline">Empowering Textile Manufacturing Excellence with Expert Guidance</p>
+        </div>
+        <!-- Quick Links Column -->
+        <div class="footer-links-section">
+          <h3 class="footer-links-title">Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#values">Values</a></li>
+            <li><a href="about.html#founder-about">Founder</a></li>
+            <li><a href="about.html#clients">Case Studies</a></li>
+          </ul>
+        </div>
+        <!-- Resources Column -->
+        <div class="footer-links-section">
+          <h3 class="footer-links-title">Resources</h3>
+          <ul class="footer-links">
+            <li><a href="about.html#impact">Why Coimbatore</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="index.html#faq">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <!-- Copyright -->
+        <div class="footer-copy">
+          <small>© 2025 Win Corp Consulting. All rights reserved.</small>
+        </div>
+      </div>
+    </footer>
+
+    <!-- AOS - Animate On Scroll Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Lenis smooth scroll (darkroom.engineering) -->
+    <script src="https://unpkg.com/lenis@1.3.14/dist/lenis.min.js"></script>
+
+
+    <!-- GSAP for typography animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+       <script src="https://unpkg.com/@lukeed/split-type"></script>
+
+    <!-- Main app script -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>

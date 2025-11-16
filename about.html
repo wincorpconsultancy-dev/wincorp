@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Win Corp – Knitwear & Textile Consulting Specialists</title>
+    <meta name="description" content="End-to-end consulting to set up and optimize knitwear and textile manufacturing units—plant layout, machinery selection, workflow design, vendor networks, quality & compliance. Coimbatore, India." />
+    <meta name="keywords" content="knitwear consulting Coimbatore, textile industry setup consultant India, knitwear factory setup guidance, textile manufacturing consultant Tamil Nadu, garment production consultation, dyeing unit consulting, textile process optimization, vendor alignment, machinery selection, workflow engineering, quality & compliance" />
+
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/about.css" />
+
+
+    <!-- AOS - Animate On Scroll Library (kept for other sections, not Services/Values) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/SplitText.min.js"></script>
+
+    <style>
+      /* Ensure AOS elements are visible before library loads */
+      [data-aos] {
+        opacity: 1 !important;
+        transform: none !important;
+        visibility: visible !important;
+      }
+      /* Let AOS take over once initialized */
+      html:not(.no-js) [data-aos].aos-init {
+        opacity: 0;
+      }
+      html:not(.no-js) [data-aos].aos-animate {
+        opacity: 1;
+      }
+    </style>
+
+    <!-- New purple favicon to match brand -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%235C2EA5'/%3E%3Ctext x='50' y='62' font-size='58' text-anchor='middle' fill='white' font-family='Arial,Helvetica,sans-serif' font-weight='700'%3EW%3C/text%3E%3C/svg%3E">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- HEADER -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo" aria-label="Win Corp Home">
+          <img class="logo-img" src="images/win-logo.png" alt="Win Corp logo" />
+          <span class="logo-type">Win Corp</span>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="nav-desktop" aria-label="Primary Navigation">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">
+                <span class="nav-link-text">Home</span>
+                <span class="nav-link-underline"></span>
+              </a>
+            </li>
+            <li class="nav-item has-dropdown">
+              <a href="service.html" class="nav-link">
+                <span class="nav-link-text">Services</span>
+                <svg class="dropdown-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+                <span class="nav-link-underline"></span>
+              </a>
+              <div class="dropdown-menu">
+                <div class="dropdown-content">
+                  <a href="index.html#services" class="dropdown-item">
+                    <div class="dropdown-item-icon">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="14" width="7" height="7"></rect>
+                        <rect x="3" y="14" width="7" height="7"></rect>
+                      </svg>
+                    </div>
+                    <span>All Services</span>
+                  </a>
+                  <a href="service.html#services" class="dropdown-item">
+                    <div class="dropdown-item-icon">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                      </svg>
+                    </div>
+                    <span>Service Metrics</span>
+                  </a>
+                  <a href="about.html#clients" class="dropdown-item">
+                    <div class="dropdown-item-icon">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                      </svg>
+                    </div>
+                    <span>Case Studies</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">
+                <span class="nav-link-text">About</span>
+              </a>
+            </li>
+            <li class="nav-item has-dropdown">
+              <a href="about.html#impact" class="nav-link">
+                <span class="nav-link-text">Resources</span>
+                <svg class="dropdown-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+                <span class="nav-link-underline"></span>
+              </a>
+              <div class="dropdown-menu">
+                <div class="dropdown-content">
+                  <a href="about.html#impact" class="dropdown-item">
+                    <div class="dropdown-item-icon">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                      </svg>
+                    </div>
+                    <span>Why Coimbatore</span>
+                  </a>
+                  <a href="index.html#faq" class="dropdown-item">
+                    <div class="dropdown-item-icon">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                        <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                      </svg>
+                    </div>
+                    <span>FAQ</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">
+                <span class="nav-link-text">Contact</span>
+                <span class="nav-link-underline"></span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="nav-toggle" aria-controls="nav-mobile" aria-expanded="false" aria-label="Toggle navigation menu">
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+        </button>
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-menu-overlay"></div>
+        <nav id="nav-mobile" class="nav-mobile" aria-label="Mobile Navigation">
+          <div class="nav-mobile-header">
+            <span class="nav-mobile-title">Menu</span>
+            <button class="nav-mobile-close" aria-label="Close menu">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+              </svg>
+            </button>
+          </div>
+          <ul class="nav-mobile-list">
+            <li class="nav-mobile-item">
+              <a href="index.html" class="nav-mobile-link">
+                <svg class="nav-mobile-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                </svg>
+                <span>Home</span>
+              </a>
+            </li>
+            <li class="nav-mobile-item has-submenu">
+              <a href="service.html" class="nav-mobile-link">
+                <svg class="nav-mobile-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="3" width="7" height="7"></rect>
+                  <rect x="14" y="3" width="7" height="7"></rect>
+                  <rect x="14" y="14" width="7" height="7"></rect>
+                  <rect x="3" y="14" width="7" height="7"></rect>
+                </svg>
+                <span>Services</span>
+                <svg class="submenu-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </a>
+              <ul class="nav-mobile-submenu">
+                <li><a href="index.html#services" class="nav-mobile-sublink">All Services</a></li>
+                <li><a href="service.html#services" class="nav-mobile-sublink">Service Metrics</a></li>
+                <li><a href="about.html#clients" class="nav-mobile-sublink">Case Studies</a></li>
+              </ul>
+            </li>
+            <li class="nav-mobile-item has-submenu">
+              <a href="about.html" class="nav-mobile-link">
+                <svg class="nav-mobile-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="12" y1="8" x2="12" y2="16"></line>
+                  <line x1="8" y1="12" x2="16" y2="12"></line>
+                </svg>
+                <span>About</span>
+                <svg class="submenu-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </a>
+              <ul class="nav-mobile-submenu">
+                <li><a href="index.html#values" class="nav-mobile-sublink">Values</a></li>
+                <li><a href="about.html#founder-about" class="nav-mobile-sublink">Founder</a></li>
+                <li><a href="about.html#impact" class="nav-mobile-sublink">Impact</a></li>
+              </ul>
+            </li>
+            <li class="nav-mobile-item has-submenu">
+              <a href="about.html#impact" class="nav-mobile-link">
+                <svg class="nav-mobile-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                </svg>
+                <span>Resources</span>
+                <svg class="submenu-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </a>
+              <ul class="nav-mobile-submenu">
+                <li><a href="about.html#impact" class="nav-mobile-sublink">Why Coimbatore</a></li>
+                <li><a href="index.html#faq" class="nav-mobile-sublink">FAQ</a></li>
+              </ul>
+            </li>
+            <li class="nav-mobile-item">
+              <a href="contact.html" class="nav-mobile-link nav-mobile-link-highlight">
+                <svg class="nav-mobile-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <span>Contact</span>
+              </a>
+            </li>
+          </ul>
+          <div class="nav-mobile-footer">
+            <a href="tel:+919894940792" class="nav-mobile-phone">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+              <span>+91 98949 40792</span>
+            </a>
+          </div>
+        </nav>
+
+        <!-- Desktop CTA -->
+        <div class="header-cta">
+          <a href="tel:+919894940792" class="header-phone">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            <span>+91 98949 40792</span>
+          </a>
+          <a href="contact.html" class="btn btn-header">Get Consultation</a>
+        </div>
+      </div>
+    </header>
+<main id="main" class="page-about">
+  <!-- ABOUT HERO / OVERVIEW -->
+  <section class="about-hero">
+    <div class="container about-hero-inner">
+      <div class="about-hero-copy">
+        <p class="section-kicker">About Win Corp</p>
+        <h1 class="about-hero-title js-split-heading">
+          Building Excellence in Knitwear &amp; Textile Manufacturing — By the Numbers.
+        </h1>
+        <p class="about-hero-lead">
+          Win Corp is a Coimbatore-born consulting partner helping textile entrepreneurs and manufacturers
+          set up, scale, and future-proof factories across the globe – from first machine to steady-state flow.
+        </p>
+        <ul class="about-hero-list">
+          <li>End-to-end guidance from layout to line balancing, machinery, and quality systems.</li>
+          <li>Vendor-neutral recommendations backed by decades of shop-floor experience.</li>
+          <li>Global exposure with on-ground execution in key textile hubs.</li>
+        </ul>
+        <div class="about-hero-cta">
+          <a href="contact.html" class="btn btn-primary">Talk to our team</a>
+          <a href="about.html#impact" class="btn btn-ghost">View impact &amp; reach</a>
+        </div>
+      </div>
+
+      <div class="about-hero-stats">
+  <!-- Main “By the Numbers” card -->
+  <div class="stat-card stat-card-highlight">
+    <div class="stat-card-bg">
+      <img src="images/about-hero.png" alt="Win Corp project implementations" />
+    </div>
+
+    <div class="stat-card-content">
+      <p class="stat-label">Win Corp — By the Numbers</p>
+      <div class="stat-main">
+        <span class="stat-number" data-counter="94">94+</span>
+        <span class="stat-caption">Successful implementations</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="stat-grid">
+    <article class="stat-card">
+      <div class="stat-card-bg">
+        <img src="images/about-hero-3.png" alt="Countries served" />
+      </div>
+      <div class="stat-card-content">
+        <p class="stat-number-sm" data-counter="30">30+</p>
+        <p class="stat-caption-sm">Countries served</p>
+      </div>
+    </article>
+
+    <article class="stat-card">
+      <div class="stat-card-bg">
+        <img src="images/about-hero-4.png" alt="Machinery partners" />
+      </div>
+      <div class="stat-card-content">
+        <p class="stat-number-sm" data-counter="150">150+</p>
+        <p class="stat-caption-sm">Machinery partners</p>
+      </div>
+    </article>
+
+    <article class="stat-card">
+      <div class="stat-card-bg">
+        <img src="images/about-hero-5.png" alt="Installation projects" />
+      </div>
+      <div class="stat-card-content">
+        <p class="stat-number-sm" data-counter="50">50+</p>
+        <p class="stat-caption-sm">Installation projects</p>
+      </div>
+    </article>
+
+    <article class="stat-card">
+      <div class="stat-card-bg">
+        <img src="images/values-bg.png" alt="Indian states covered" />
+      </div>
+      <div class="stat-card-content">
+        <p class="stat-number-sm" data-counter="18">18</p>
+        <p class="stat-caption-sm">Indian states covered</p>
+      </div>
+    </article>
+  </div>
+</div>
+
+
+    </div>
+  </section>
+
+  <!-- IMPACT & REACH -->
+<section id="impact" class="section about-impact">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-kicker">Impact &amp; Reach</p>
+
+      <!-- keep the typing class here -->
+      <h2 class="section-title section-title-typing">
+        From Coimbatore to the world’s textile hubs.
+      </h2>
+
+      <p class="section-subtitle">
+        A proven implementation record across continents, customer segments, and factory scales.
+      </p>
+    </div>
+
+    <div class="impact-list">
+      <article class="impact-item">
+        <div class="impact-line-top">
+          <span class="impact-badge">94+</span>
+          <h3 class="impact-heading">Successful Projects</h3>
+        </div>
+        <p class="impact-body">
+          Completed across project consultancy, technology transfer, and machinery installation —
+          delivering predictable outcomes for first-time and seasoned entrepreneurs alike.
+        </p>
+      </article>
+
+      <article class="impact-item">
+        <div class="impact-line-top">
+          <span class="impact-badge">30+</span>
+          <h3 class="impact-heading">Countries Served</h3>
+        </div>
+        <p class="impact-body">
+          From India to Thailand, Indonesia to Egypt, Bangladesh to Vietnam — Win Corp carries
+          best practices across geographies and adapts them to local realities.
+        </p>
+      </article>
+
+      <article class="impact-item">
+        <div class="impact-line-top">
+          <span class="impact-badge">150+</span>
+          <h3 class="impact-heading">Machinery Partners</h3>
+        </div>
+        <p class="impact-body">
+          Deep relationships with world-class brands from Germany, Italy, Switzerland, Japan, and Korea
+          ensure the right technology fit and long-term support.
+        </p>
+      </article>
+
+      <article class="impact-item">
+        <div class="impact-line-top">
+          <span class="impact-badge">50+</span>
+          <h3 class="impact-heading">Installation Projects</h3>
+        </div>
+        <p class="impact-body">
+          Direct machinery installation, commissioning, and service support delivered globally — aligned
+          to safety, quality, and audit-ready standards.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+  <!-- EXPERTISE PORTFOLIO -->
+<section class="section about-expertise">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-kicker">Expertise Portfolio</p>
+      <h2 class="section-title js-split-heading">
+        Specialised consulting across the textile value chain.
+      </h2>
+    </div>
+
+    <div class="expertise-grid">
+      <!-- 01 -->
+      <article class="expertise-card" data-step="01">
+        <div class="expertise-pill">Project Consultancy</div>
+        <h3>Greenfield &amp; Brownfield Implementation</h3>
+        <p>
+          <strong>30 major implementations</strong> including Shahi Exports, Pee Gee Fabrics (Centwin Group),
+          and Gangotri Textiles Ltd.
+        </p>
+        <ul class="expertise-list">
+          <li>End-to-end factory planning &amp; layout.</li>
+          <li>Capex optimization and machinery mix design.</li>
+          <li>Clients from startups to KPR, VIP Group, Centwin Group and more.</li>
+        </ul>
+      </article>
+
+      <!-- 02 -->
+      <article class="expertise-card" data-step="02">
+        <div class="expertise-pill">Knowledge Transfer</div>
+        <h3>Technology &amp; Skill Transfer Programs</h3>
+        <p>
+          <strong>14 international projects</strong> across 6 countries — elevating teams and processes.
+        </p>
+        <ul class="expertise-list">
+          <li>Technology transfer to Bangladesh, Indonesia, Mauritius, Philippines.</li>
+          <li>Partnering with Square Sarah, Genknit and other leaders.</li>
+          <li>Training teams for first-time-right quality and buyer compliance.</li>
+        </ul>
+      </article>
+
+      <!-- 03 -->
+      <article class="expertise-card" data-step="03">
+        <div class="expertise-pill">Plant &amp; Machinery</div>
+        <h3>Commissioning &amp; Lifecycle Support</h3>
+        <p>
+          <strong>50+ facilities commissioned</strong> from knitting to finishing across 18 Indian states.
+        </p>
+        <ul class="expertise-list">
+          <li>Experience with Thies, Mayer &amp; Cie, Santex and other premium brands.</li>
+          <li>Utility planning, energy efficiency, maintenance workflows.</li>
+          <li>Audit-ready documentation and SOPs for long-term reliability.</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+  <!-- GEOGRAPHIC FOOTPRINT -->
+<section class="section about-footprint">
+  <div class="container footprint-inner">
+    <div class="footprint-block">
+      <p class="section-kicker">Geographic Footprint</p>
+      <h2 class="section-title js-split-heading">
+        Where Win Corp has delivered on-ground impact.
+      </h2>
+      <p class="section-subtitle">
+        From Tamil Nadu’s knitwear belt to export-driven hubs in Southeast Asia and Africa.
+      </p>
+    </div>
+
+    <div class="footprint-columns">
+      <div class="footprint-column">
+        <h3>Domestic Presence</h3>
+        <ul class="tag-list">
+          <li class="tag">Tamil Nadu Hub &mdash; 40+ projects</li>
+          <li class="tag">Tirupur</li>
+          <li class="tag">Coimbatore</li>
+          <li class="tag">Perundurai</li>
+          <li class="tag">Karnataka</li>
+          <li class="tag">Maharashtra</li>
+          <li class="tag">Gujarat</li>
+          <li class="tag">West Bengal</li>
+          <li class="tag">Punjab</li>
+          <li class="tag">Andhra Pradesh</li>
+        </ul>
+        <p class="footnote">
+          Major city projects in Mumbai, Kolkata, Chennai, Bangalore, Hyderabad, and Ludhiana.
+        </p>
+      </div>
+
+      <div class="footprint-column">
+        <h3>International Projects</h3>
+        <ul class="tag-list">
+          <li class="tag">Indonesia (5 projects)</li>
+          <li class="tag">Philippines (2 projects)</li>
+          <li class="tag">Vietnam</li>
+          <li class="tag">Thailand</li>
+          <li class="tag">Bangladesh (3 projects)</li>
+          <li class="tag">Mauritius</li>
+          <li class="tag">Egypt</li>
+          <li class="tag">Germany</li>
+        </ul>
+        <p class="footnote">
+          Multi-country experience ensures cultural sensitivity and region-specific compliance.
+        </p>
+      </div>
+    </div>
+
+    <!-- UNIQUE ORBIT VISUAL FOR THIS SECTION -->
+    <div class="footprint-orbit" aria-hidden="true">
+      <div class="orbit-ring orbit-ring-1"></div>
+      <div class="orbit-ring orbit-ring-2"></div>
+      <div class="orbit-ring orbit-ring-3"></div>
+
+      <div class="orbit-core"></div>
+
+      <div class="orbit-dot orbit-dot-1"></div>
+      <div class="orbit-dot orbit-dot-2"></div>
+      <div class="orbit-dot orbit-dot-3"></div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- TECHNICAL EXCELLENCE -->
+<section class="section about-technical">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-kicker">Technical Excellence</p>
+      <h2 class="section-title js-split-heading">Depth across machinery, processes &amp; utilities.</h2>
+    </div>
+
+    <div class="tech-grid">
+      <!-- Card 1 -->
+      <article class="tech-card">
+        <h3>Machinery Expertise</h3>
+        <p>
+          Experience across
+          <span class="highlight-number" data-target="11" data-suffix="+">11+</span>
+          knitting technologies (Mayer &amp; Cie, Terrot, Pailung, Shima Seiki),
+          <span class="highlight-number" data-target="6" data-suffix="+">6+</span>
+          pretreatment systems (Dornier, Erbatech, Bianco), and
+          <span class="highlight-number" data-target="11" data-suffix="+">11+</span>
+          dyeing brands (Thies, Then, Sclavos, Fongs).
+        </p>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="tech-card">
+        <h3>Finishing &amp; Lab Systems</h3>
+        <p>
+          <span class="highlight-number" data-target="13" data-suffix="+">13+</span>
+          finishing equipment types (Santex, Bruckner, Monforts) and
+          <span class="highlight-number" data-target="12" data-suffix="+">12+</span>
+          laboratory equipment brands (Mathis, Datacolor, SDL) for end-to-end process reliability.
+        </p>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="tech-card">
+        <h3>Utilities &amp; Energy</h3>
+        <p>
+          <span class="highlight-number" data-target="19" data-suffix="+">19+</span>
+          utility systems including Thermax, Forbes Marshall, and Atlas Copco – balancing productivity with sustainability and operating costs.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+  <!-- INDUSTRY SEGMENTS -->
+<section class="section about-industries">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-kicker">Industry Segments Served</p>
+      <h2 class="section-title js-split-heading">
+        Where Win Corp’s expertise is already battle-tested.
+      </h2>
+    </div>
+
+    <div class="industries-grid">
+      <article class="industry-card">
+        <div class="industry-count-wrap">
+          <span class="industry-count" data-counter="35">35+</span>
+        </div>
+        <div class="industry-content">
+          <h3 class="industry-label">Knitwear &amp; Hosiery</h3>
+          <p class="industry-note">Full-line knitwear implementations for export and domestic brands.</p>
+        </div>
+      </article>
+
+      <article class="industry-card">
+        <div class="industry-count-wrap">
+          <span class="industry-count" data-counter="25">25+</span>
+        </div>
+        <div class="industry-content">
+          <h3 class="industry-label">Dyeing &amp; Processing</h3>
+          <p class="industry-note">Dyeing, washing, and finishing units engineered for buyer compliance.</p>
+        </div>
+      </article>
+
+      <article class="industry-card">
+        <div class="industry-count-wrap">
+          <span class="industry-count" data-counter="20">20+</span>
+        </div>
+        <div class="industry-content">
+          <h3 class="industry-label">Garment Manufacturing</h3>
+          <p class="industry-note">Cut-to-pack garment units aligned to audit-ready workflows.</p>
+        </div>
+      </article>
+
+      <article class="industry-card">
+        <div class="industry-count-wrap">
+          <span class="industry-count" data-counter="15">15+</span>
+        </div>
+        <div class="industry-content">
+          <h3 class="industry-label">Textile Processing</h3>
+          <p class="industry-note">Process houses with robust utilities and shade reproducibility.</p>
+        </div>
+      </article>
+
+      <article class="industry-card">
+        <div class="industry-count-wrap">
+          <span class="industry-count" data-counter="40">40+</span>
+        </div>
+        <div class="industry-content">
+          <h3 class="industry-label">Export Houses</h3>
+          <p class="industry-note">Global buyer–driven standards translated into shop-floor systems.</p>
+        </div>
+      </article>
+
+      <article class="industry-card">
+        <div class="industry-count-wrap">
+          <span class="industry-count" data-counter="10">10+</span>
+        </div>
+        <div class="industry-content">
+          <h3 class="industry-label">Integrated Mills</h3>
+          <p class="industry-note">End-to-end plants from fibre to finished fabric and garments.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+  <!-- NOTABLE CLIENTS - AUTO MOVING MARQUEE -->
+<section class="section about-clients" id="clients">
+  <div class="container clients-inner">
+    <div class="clients-header-block">
+      <p class="section-kicker">Trusted by Export Leaders</p>
+      <h2 class="section-title js-split-heading">
+        The companies that bet on Win Corp — and won.
+      </h2>
+      <p class="section-subtitle">
+        From India’s largest export houses to focused niche mills, Win Corp is the quiet partner behind
+        factories that run on time, on spec, and on buyer standards.
+      </p>
+
+      <div class="clients-highlight-row">
+        <div class="clients-highlight-pill">
+          <span class="highlight-number" data-target="40" data-suffix="+">40+</span>
+          <span class="pill-label">Export houses</span>
+        </div>
+        <div class="clients-highlight-pill">
+          <span class="highlight-number" data-target="30" data-suffix="+">30+</span>
+          <span class="pill-label">Established groups</span>
+        </div>
+        <div class="clients-highlight-pill">
+          <span class="highlight-number" data-target="10" data-suffix="+">10+</span>
+          <span class="pill-label">Countries with on-ground projects</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="clients-panel">
+      <!-- Client group tiles (these will have big animations) -->
+      <article class="client-group-card">
+        <p class="client-group-label">Leading Export Houses</p>
+        <h3 class="client-group-title">High-volume, high-stakes production.</h3>
+        <ul class="client-list">
+          <li>Shahi Exports</li>
+          <li>Fab Knits International</li>
+          <li>Wiin Track Exports</li>
+          <li>RK Exports</li>
+        </ul>
+      </article>
+
+      <article class="client-group-card">
+        <p class="client-group-label">Established Groups</p>
+        <h3 class="client-group-title">Multi-unit, multi-decade enterprises.</h3>
+        <ul class="client-list">
+          <li>KPR Group</li>
+          <li>VIP Group</li>
+          <li>Centwin Group</li>
+          <li>Arvind Textile Mills</li>
+        </ul>
+      </article>
+
+      <article class="client-group-card">
+        <p class="client-group-label">International Brands</p>
+        <h3 class="client-group-title">Cross-border technology &amp; practice transfer.</h3>
+        <ul class="client-list">
+          <li>Lucky Knits (Thailand)</li>
+          <li>Genknit (Philippines)</li>
+          <li>Square Sarah (Bangladesh)</li>
+        </ul>
+      </article>
+    </div>
+
+    <!-- AUTO-MOVING CLIENT TICKER -->
+    <div class="clients-ticker" aria-label="Notable clients">
+      <div class="clients-ticker-inner">
+        <div class="clients-ticker-track">
+          <span class="clients-ticker-item">Shahi Exports</span>
+          <span class="clients-ticker-item">Fab Knits International</span>
+          <span class="clients-ticker-item">Wiin Track Exports</span>
+          <span class="clients-ticker-item">RK Exports</span>
+          <span class="clients-ticker-item">KPR Group</span>
+          <span class="clients-ticker-item">VIP Group</span>
+          <span class="clients-ticker-item">Centwin Group</span>
+          <span class="clients-ticker-item">Arvind Textile Mills</span>
+          <span class="clients-ticker-item">Lucky Knits (Thailand)</span>
+          <span class="clients-ticker-item">Genknit (Philippines)</span>
+          <span class="clients-ticker-item">Square Sarah (Bangladesh)</span>
+
+          <!-- repeat for seamless loop -->
+          <span class="clients-ticker-item">Shahi Exports</span>
+          <span class="clients-ticker-item">Fab Knits International</span>
+          <span class="clients-ticker-item">Wiin Track Exports</span>
+          <span class="clients-ticker-item">RK Exports</span>
+          <span class="clients-ticker-item">KPR Group</span>
+          <span class="clients-ticker-item">VIP Group</span>
+          <span class="clients-ticker-item">Centwin Group</span>
+          <span class="clients-ticker-item">Arvind Textile Mills</span>
+          <span class="clients-ticker-item">Lucky Knits (Thailand)</span>
+          <span class="clients-ticker-item">Genknit (Philippines)</span>
+          <span class="clients-ticker-item">Square Sarah (Bangladesh)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- WHY THESE NUMBERS MATTER -->
+<section class="section about-why" id="why-win-corp">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-kicker">Why These Numbers Matter</p>
+      <h2 class="section-title js-split-heading">
+        Why factories choose Win Corp, and stay with Win Corp.
+      </h2>
+      <p class="section-subtitle">
+        Behind every statistic is a factory that needed more than theory – they needed execution.
+      </p>
+    </div>
+
+    <div class="why-steps">
+      <!-- STEP 01 -->
+      <article class="why-step why-step--left">
+        <div class="why-step-meta">
+          <span class="why-step-index">01</span>
+          <span class="why-step-tag">Experience = Expertise</span>
+        </div>
+        <div class="why-step-content">
+          <h3 class="why-step-heading">Experience that shows up on the factory floor.</h3>
+          <p>
+            Every one of the <strong>94+ implementations</strong> adds to a living playbook – what works,
+            what fails, and what to avoid in your context. You don’t just get advice; you get patterns that
+            have already been proven in plants like yours.
+          </p>
+        </div>
+      </article>
+
+      <!-- STEP 02 -->
+      <article class="why-step why-step--right">
+        <div class="why-step-meta">
+          <span class="why-step-index">02</span>
+          <span class="why-step-tag">Scale = Reliability</span>
+        </div>
+        <div class="why-step-content">
+          <h3 class="why-step-heading">A network that keeps your lines moving.</h3>
+          <p>
+            With <strong>150+ machinery partners</strong> and <strong>50+ installations</strong>, Win Corp
+            operates inside a mature ecosystem of OEMs, vendors, and service teams – reducing your risk on
+            spares, service, and technology upgrades.
+          </p>
+        </div>
+      </article>
+
+      <!-- STEP 03 -->
+      <article class="why-step why-step--left">
+        <div class="why-step-meta">
+          <span class="why-step-index">03</span>
+          <span class="why-step-tag">Diversity = Adaptability</span>
+        </div>
+        <div class="why-step-content">
+          <h3 class="why-step-heading">We’ve seen your exact challenge before.</h3>
+          <p>
+            From <strong>startup knit units</strong> to large integrated mills, from export houses to
+            process-only plants – the mix of <strong>industry segments</strong> served means solutions are
+            tuned to your scale, not copy–pasted from elsewhere.
+          </p>
+        </div>
+      </article>
+
+      <!-- STEP 04 -->
+      <article class="why-step why-step--right">
+        <div class="why-step-meta">
+          <span class="why-step-index">04</span>
+          <span class="why-step-tag">Global = Best Practices</span>
+        </div>
+        <div class="why-step-content">
+          <h3 class="why-step-heading">Global standards, local practicality.</h3>
+          <p>
+            Work across <strong>30+ countries</strong> brings in global best practices. Those are then
+            filtered through local realities – labour, power, water, compliance – so your plant is world-class
+            without being unrealistic.
+          </p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+  <!-- FOUNDER'S MESSAGE -->
+<section id="founder-about" class="section about-founder">
+  <div class="container founder-inner">
+    <!-- LEFT: Founder portrait + badges -->
+    <div class="founder-photo-column">
+      <div class="founder-photo-card">
+        <span class="founder-tag">Founder</span>
+
+<div class="founder-avatar-wrap">
+  <div class="founder-avatar-ring">
+    <img src="images/founder-1.png"
+         alt="Founder of Win Corp"
+         class="founder-photo-img">
+  </div>
+</div>
+
+
+        <h3 class="founder-name">Mr Shanmugam Venugopal</h3>
+        <p class="founder-title">Founder , WinCorp</p>
+
+        <div class="founder-badges">
+          <span class="founder-badge">30+ years in textiles</span>
+          <span class="founder-badge">Global implementation specialist</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT: Message + stats -->
+    <div class="founder-copy-column">
+      <p class="founder-eyebrow">Founder’s Message</p>
+
+      <!-- 👇 This is the one your typewriter JS already targets -->
+      <p class="founder-bio">
+        "With over 94 successful implementations across 30+ countries and partnerships with 150+ machinery
+        manufacturers, Win Corp has become synonymous with textile manufacturing excellence. Our journey from
+        Coimbatore to becoming a global consulting force reflects our commitment to transforming the textile
+        industry, one factory at a time."
+      </p>
+
+      <div class="founder-stats-row">
+        <div class="founder-stat">
+          <span class="highlight-number" data-target="94" data-suffix="+">94+</span>
+          <span class="founder-stat-label">Implementations led directly by the founder</span>
+        </div>
+        <div class="founder-stat">
+          <span class="highlight-number" data-target="30" data-suffix="+">30+</span>
+          <span class="founder-stat-label">Countries of on-ground work</span>
+        </div>
+        <div class="founder-stat">
+          <span class="highlight-number" data-target="150" data-suffix="+">150+</span>
+          <span class="founder-stat-label">Machinery partnerships nurtured</span>
+        </div>
+      </div>
+
+      <div class="founder-signoff">
+        <span class="founder-sign-line"></span>
+        <div class="founder-sign-text">
+          <p class="founder-sign-name">Mr Shanmugam Venugopal</p>
+          <p class="founder-sign-role">Founder, Win Corp Consulting</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- OUR PROMISE / CTA -->
+  <section class="section about-promise">
+    <div class="container promise-inner">
+      <div class="promise-copy">
+        <p class="section-kicker">Our Promise</p>
+        <h2 class="section-title js-split-heading">We don’t just consult — we walk the factory floor with you.</h2>
+        <p class="section-subtitle">
+          We partner with you through every stage of the textile manufacturing journey, backed by a proven
+          track record and deep technical expertise.
+        </p>
+
+        <ul class="promise-list">
+          <li>Proven track record with industry leaders and export houses.</li>
+          <li>Hands-on technical knowledge across knitting, processing, garmenting, and utilities.</li>
+          <li>Strong relationships with global machinery manufacturers and solution providers.</li>
+          <li>Diverse geographic experience for region-specific standards and compliance.</li>
+        </ul>
+
+        <div class="promise-cta">
+          <a href="contact.html" class="btn btn-primary">Contact Us Today →</a>
+          <span class="promise-meta">Ready to join our success stories?</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+ 
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <svg class="footer-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" preserveAspectRatio="none">
+        <path d="M0,64 C360,100 720,20 1080,64 C1320,90 1440,40 1440,40 L1440,120 L0,120 Z" fill="#faf7ff"/>
+      </svg>
+      <div class="container footer-inner">
+        <!-- Brand Column -->
+        <div class="footer-brand">
+          <img class="footer-logo-img" src="images/win-logo.png" alt="Win Corp Logo" />
+          <span class="logo-type">Win Corp Consulting</span>
+          <p class="footer-tagline">Empowering Textile Manufacturing Excellence with Expert Guidance</p>
+        </div>
+        <!-- Quick Links Column -->
+        <div class="footer-links-section">
+          <h3 class="footer-links-title">Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#values">Values</a></li>
+            <li><a href="about.html#founder-about">Founder</a></li>
+            <li><a href="about.html#clients">Case Studies</a></li>
+          </ul>
+        </div>
+        <!-- Resources Column -->
+        <div class="footer-links-section">
+          <h3 class="footer-links-title">Resources</h3>
+          <ul class="footer-links">
+            <li><a href="about.html#impact">Why Coimbatore</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="index.html#faq">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <!-- Copyright -->
+        <div class="footer-copy">
+          <small>© 2025 Win Corp Consulting. All rights reserved.</small>
+        </div>
+      </div>
+    </footer>
+
+    <!-- AOS - Animate On Scroll Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Lenis smooth scroll (darkroom.engineering) -->
+    <script src="https://unpkg.com/lenis@1.3.14/dist/lenis.min.js"></script>
+
+
+    <!-- GSAP for typography animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+       <script src="https://unpkg.com/@lukeed/split-type"></script>
+
+    <!-- Main app script -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>

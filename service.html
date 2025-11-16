@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Win Corp – Knitwear & Textile Consulting Specialists</title>
+    <meta name="description" content="End-to-end consulting to set up and optimize knitwear and textile manufacturing units—plant layout, machinery selection, workflow design, vendor networks, quality & compliance. Coimbatore, India." />
+    <meta name="keywords" content="knitwear consulting Coimbatore, textile industry setup consultant India, knitwear factory setup guidance, textile manufacturing consultant Tamil Nadu, garment production consultation, dyeing unit consulting, textile process optimization, vendor alignment, machinery selection, workflow engineering, quality & compliance" />
+
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/service.css" />
+
+    <!-- AOS - Animate On Scroll Library (kept for other sections, not Services/Values) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/SplitText.min.js"></script>
+
+    <style>
+      /* Ensure AOS elements are visible before library loads */
+      [data-aos] {
+        opacity: 1 !important;
+        transform: none !important;
+        visibility: visible !important;
+      }
+      /* Let AOS take over once initialized */
+      html:not(.no-js) [data-aos].aos-init {
+        opacity: 0;
+      }
+      html:not(.no-js) [data-aos].aos-animate {
+        opacity: 1;
+      }
+    </style>
+
+    <!-- New purple favicon to match brand -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%235C2EA5'/%3E%3Ctext x='50' y='62' font-size='58' text-anchor='middle' fill='white' font-family='Arial,Helvetica,sans-serif' font-weight='700'%3EW%3C/text%3E%3C/svg%3E">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- HEADER -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo" aria-label="Win Corp Home">
+          <img class="logo-img" src="images/win-logo.png" alt="Win Corp logo" />
+          <span class="logo-type">Win Corp</span>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="nav-desktop" aria-label="Primary Navigation">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">
+                <span class="nav-link-text">Home</span>
+                <span class="nav-link-underline"></span>
+              </a>
+            </li>
+            <li class="nav-item has-dropdown">
+              <a href="service.html" class="nav-link">
+                <span class="nav-link-text">Services</span>
+                <svg class="dropdown-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+                <span class="nav-link-underline"></span>
+              </a>
+              <div class="dropdown-menu">
+                <div class="dropdown-content">
+                  <a href="index.html#services" class="dropdown-item">
+                    <div class="dropdown-item-icon">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="14" width="7" height="7"></rect>
+                        <rect x="3" y="14" width="7" height="7"></rect>
+                      </svg>
+                    </div>
+                    <span>All Services</span>
+                  </a>
+                  <a href="service.html#services" class="dropdown-item">
+                    <div class="dropdown-item-icon">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                      </svg>
+                    </div>
+                    <span>Service Metrics</span>
+                  </a>
+                  <a href="about.html#clients" class="dropdown-item">
+                    <div class="dropdown-item-icon">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                      </svg>
+                    </div>
+                    <span>Case Studies</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">
+                <span class="nav-link-text">About</span>
+              </a>
+            </li>
+            <li class="nav-item has-dropdown">
+              <a href="about.html#impact" class="nav-link">
+                <span class="nav-link-text">Resources</span>
+                <svg class="dropdown-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+                <span class="nav-link-underline"></span>
+              </a>
+              <div class="dropdown-menu">
+                <div class="dropdown-content">
+                  <a href="about.html#impact" class="dropdown-item">
+                    <div class="dropdown-item-icon">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                      </svg>
+                    </div>
+                    <span>Why Coimbatore</span>
+                  </a>
+                  <a href="index.html#faq" class="dropdown-item">
+                    <div class="dropdown-item-icon">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                        <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                      </svg>
+                    </div>
+                    <span>FAQ</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">
+                <span class="nav-link-text">Contact</span>
+                <span class="nav-link-underline"></span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="nav-toggle" aria-controls="nav-mobile" aria-expanded="false" aria-label="Toggle navigation menu">
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+        </button>
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-menu-overlay"></div>
+        <nav id="nav-mobile" class="nav-mobile" aria-label="Mobile Navigation">
+          <div class="nav-mobile-header">
+            <span class="nav-mobile-title">Menu</span>
+            <button class="nav-mobile-close" aria-label="Close menu">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+              </svg>
+            </button>
+          </div>
+          <ul class="nav-mobile-list">
+            <li class="nav-mobile-item">
+              <a href="index.html" class="nav-mobile-link">
+                <svg class="nav-mobile-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                </svg>
+                <span>Home</span>
+              </a>
+            </li>
+            <li class="nav-mobile-item has-submenu">
+              <a href="service.html" class="nav-mobile-link">
+                <svg class="nav-mobile-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="3" width="7" height="7"></rect>
+                  <rect x="14" y="3" width="7" height="7"></rect>
+                  <rect x="14" y="14" width="7" height="7"></rect>
+                  <rect x="3" y="14" width="7" height="7"></rect>
+                </svg>
+                <span>Services</span>
+                <svg class="submenu-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </a>
+              <ul class="nav-mobile-submenu">
+                <li><a href="index.html#services" class="nav-mobile-sublink">All Services</a></li>
+                <li><a href="service.html#services" class="nav-mobile-sublink">Service Metrics</a></li>
+                <li><a href="about.html#clients" class="nav-mobile-sublink">Case Studies</a></li>
+              </ul>
+            </li>
+            <li class="nav-mobile-item has-submenu">
+              <a href="about.html" class="nav-mobile-link">
+                <svg class="nav-mobile-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="12" y1="8" x2="12" y2="16"></line>
+                  <line x1="8" y1="12" x2="16" y2="12"></line>
+                </svg>
+                <span>About</span>
+                <svg class="submenu-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </a>
+              <ul class="nav-mobile-submenu">
+                <li><a href="index.html#values" class="nav-mobile-sublink">Values</a></li>
+                <li><a href="about.html#founder-about" class="nav-mobile-sublink">Founder</a></li>
+                <li><a href="about.html#impact" class="nav-mobile-sublink">Impact</a></li>
+              </ul>
+            </li>
+            <li class="nav-mobile-item has-submenu">
+              <a href="about.html#impact" class="nav-mobile-link">
+                <svg class="nav-mobile-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                </svg>
+                <span>Resources</span>
+                <svg class="submenu-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </a>
+              <ul class="nav-mobile-submenu">
+                <li><a href="about.html#impact" class="nav-mobile-sublink">Why Coimbatore</a></li>
+                <li><a href="index.html#faq" class="nav-mobile-sublink">FAQ</a></li>
+              </ul>
+            </li>
+            <li class="nav-mobile-item">
+              <a href="contact.html" class="nav-mobile-link nav-mobile-link-highlight">
+                <svg class="nav-mobile-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <span>Contact</span>
+              </a>
+            </li>
+          </ul>
+          <div class="nav-mobile-footer">
+            <a href="tel:+919894940792" class="nav-mobile-phone">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+              <span>+91 98949 40792</span>
+            </a>
+          </div>
+        </nav>
+
+        <!-- Desktop CTA -->
+        <div class="header-cta">
+          <a href="tel:+919894940792" class="header-phone">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            <span>+91 98949 40792</span>
+          </a>
+          <a href="contact.html" class="btn btn-header">Get Consultation</a>
+        </div>
+      </div>
+    </header>
+  <main id="main">
+      <!-- SERVICES – BY THE NUMBERS -->
+      <section class="section services-metrics">
+        <div class="container services-metrics-inner">
+          <!-- Header / hero -->
+          <header class="section-header services-metrics-header">
+            <p class="section-kicker">Services – By the Numbers</p>
+            <h1 class="section-title js-split-heading">
+              Every Win Corp service is backed by numbers.
+            </h1>
+            <p class="section-subtitle">
+              Greenfield setups, scale-up projects, optimization mandates – each engagement is measured
+              in throughput, cost, quality, safety, and time-to-ROI.
+            </p>
+
+            <div class="services-hero-strip">
+              <div class="services-hero-pill">
+                <p class="services-hero-label">Projects Delivered</p>
+                <p class="services-hero-value highlight-number" data-target="94" data-suffix="+">94+</p>
+                <p class="services-hero-note">Consultancy, know-how &amp; installation projects.</p>
+              </div>
+              <div class="services-hero-pill">
+                <p class="services-hero-label">Countries &amp; States</p>
+                <p class="services-hero-value highlight-number" data-target="7" data-suffix="">7</p>
+                <p class="services-hero-note">Countries &amp; 15+ Indian states with active projects.</p>
+              </div>
+              <div class="services-hero-pill">
+                <p class="services-hero-label">Equipment Types</p>
+                <p class="services-hero-value highlight-number" data-target="150" data-suffix="+">150+</p>
+                <p class="services-hero-note">Textile, lab &amp; utility systems in our portfolio.</p>
+              </div>
+            </div>
+          </header>
+
+          <!-- STICKY STACKED SERVICES STORY -->
+          <div class="services-stack">
+            <!-- LEFT: static-ish text & steps -->
+            <div class="services-stack-left">
+              <p class="services-stack-kicker">How our services compound value</p>
+              <h2 class="services-stack-title">
+                From<span> footprint</span> to<span> performance</span> to<span> ROI.</span>
+              </h2>
+              <p class="services-stack-note">
+                As you scroll, follow how Win Corp services move from project volume,
+                to impact, to investment &amp; compliance – exactly how your business sees it.
+              </p>
+
+              <ol class="services-stack-steps">
+                <li class="services-stack-step is-active" data-step="1">
+                  <span class="step-label">01 · Track Record</span>
+                </li>
+                <li class="services-stack-step" data-step="2">
+                  <span class="step-label">02 · Geographic &amp; Machinery Reach</span>
+                </li>
+                <li class="services-stack-step" data-step="3">
+                  <span class="step-label">03 · Impact &amp; Quality Metrics</span>
+                </li>
+                <li class="services-stack-step" data-step="4">
+                  <span class="step-label">04 · Investment &amp; Compliance</span>
+                </li>
+              </ol>
+            </div>
+
+            <!-- RIGHT: stacked panels that slide up & overlay -->
+            <div class="services-stack-right">
+              <!-- STEP 1: Track record -->
+              <article class="services-step-panel" data-step="1">
+                <header class="service-metric-header">
+                  <span class="service-metric-tag">Track Record</span>
+                  <h2 class="service-metric-title">Projects, by service type.</h2>
+                </header>
+                <div class="service-metric-body">
+                  <p class="service-metric-lead">
+                    <strong>94+ projects completed</strong> across consulting, know-how transfer
+                    and plant &amp; machinery installation.
+                  </p>
+                  <ul class="metric-list">
+                    <li><strong>30</strong> project consultancy implementations</li>
+                    <li><strong>14</strong> know-how transfer programs</li>
+                    <li><strong>50</strong> plant &amp; machinery installation assignments</li>
+                  </ul>
+                </div>
+              </article>
+
+              <!-- STEP 2: Geographic reach + machinery -->
+              <article class="services-step-panel" data-step="2">
+                <header class="service-metric-header">
+                  <span class="service-metric-tag">Geographic &amp; Machinery Reach</span>
+                  <h2 class="service-metric-title">Where and what we run.</h2>
+                </header>
+                <div class="service-metric-body service-metric-body--split">
+                  <div class="metric-column">
+                    <p class="service-metric-lead">
+                      A footprint that covers key textile clusters in India and Asia.
+                    </p>
+                    <ul class="metric-list metric-list--compact">
+                      <li><strong>7 countries</strong> – India, Indonesia, Bangladesh, Thailand, Philippines, Egypt, Vietnam</li>
+                      <li><strong>15+ Indian states</strong>, including Tamil Nadu, Karnataka, Maharashtra &amp; Gujarat</li>
+                      <li><strong>40+ projects</strong> in the Tirupur knitwear cluster</li>
+                      <li><strong>18 international facilities</strong> implemented or optimized</li>
+                    </ul>
+                  </div>
+                  <div class="metric-column">
+                    <p class="service-metric-lead">
+                      <strong>150+ equipment types</strong> across the full textile value chain.
+                    </p>
+                    <ul class="metric-list metric-list--compact">
+                      <li><strong>11 dyeing machinery brands</strong> – Thies, Then, Sclavos, Dilmenlar, Fongs, etc.</li>
+                      <li><strong>5 knitting machinery brands</strong> – Mayer &amp; Cie, Terrot, Pailung, Shima Seiki, Stoll</li>
+                      <li><strong>13 finishing machinery brands</strong> – Santex, Bianco, Bruckner, Monforts, etc.</li>
+                      <li><strong>12 lab equipment suppliers</strong> &amp; <strong>19 utility system providers</strong></li>
+                    </ul>
+                  </div>
+                </div>
+              </article>
+
+              <!-- STEP 3: Impact & Quality -->
+              <article class="services-step-panel" data-step="3">
+                <header class="service-metric-header">
+                  <span class="service-metric-tag">Impact Metrics</span>
+                  <h2 class="service-metric-title">Production &amp; quality outcomes.</h2>
+                </header>
+                <div class="service-metric-body service-metric-body--split">
+                  <div class="metric-column">
+                    <h3 class="metric-subheading">Production Optimization</h3>
+                    <ul class="metric-list">
+                      <li><strong>35%</strong> average throughput improvement</li>
+                      <li><strong>22%</strong> average cost reduction in dyeing units</li>
+                      <li><strong>300%</strong> performance improvement in focused migrations</li>
+                      <li><strong>25%</strong> increase in market reach via process improvements</li>
+                    </ul>
+                  </div>
+                  <div class="metric-column">
+                    <h3 class="metric-subheading">Quality &amp; Reliability</h3>
+                    <ul class="metric-list">
+                      <li>Post-implementation <strong>&lt;2% defect rates</strong></li>
+                      <li><strong>98% on-time delivery</strong> performance</li>
+                      <li><strong>40% reduction</strong> in fabric rejection rates</li>
+                    </ul>
+                  </div>
+                </div>
+              </article>
+
+              <!-- STEP 4: Investment & Compliance -->
+              <article class="services-step-panel" data-step="4">
+                <header class="service-metric-header">
+                  <span class="service-metric-tag">Investment &amp; Compliance</span>
+                  <h2 class="service-metric-title">De-risked CAPEX, audit-ready plants.</h2>
+                </header>
+                <div class="service-metric-body service-metric-body--split">
+                  <div class="metric-column">
+                    <h3 class="metric-subheading">Investment Optimization</h3>
+                    <ul class="metric-list">
+                      <li>Project range: <strong>₹2–50 Crores</strong></li>
+                      <li><strong>15–20% CAPEX savings</strong> via smart machinery selection</li>
+                      <li><strong>12–18 months</strong> average ROI</li>
+                      <li><strong>30% energy cost reduction</strong> in optimized systems</li>
+                    </ul>
+                  </div>
+                  <div class="metric-column">
+                    <h3 class="metric-subheading">Compliance &amp; Certifications</h3>
+                    <ul class="metric-list">
+                      <li><strong>100% audit clearance rate</strong> for prepared facilities</li>
+                      <li><strong>15+ compliance standards</strong> navigated</li>
+                      <li><strong>Zero penalty record</strong> on documentation support</li>
+                    </ul>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+
+
+     <!-- FOOTER -->
+    <footer class="site-footer">
+      <svg class="footer-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" preserveAspectRatio="none">
+        <path d="M0,64 C360,100 720,20 1080,64 C1320,90 1440,40 1440,40 L1440,120 L0,120 Z" fill="#faf7ff"/>
+      </svg>
+      <div class="container footer-inner">
+        <!-- Brand Column -->
+        <div class="footer-brand">
+          <img class="footer-logo-img" src="images/win-logo.png" alt="Win Corp Logo" />
+          <span class="logo-type">Win Corp Consulting</span>
+          <p class="footer-tagline">Empowering Textile Manufacturing Excellence with Expert Guidance</p>
+        </div>
+        <!-- Quick Links Column -->
+        <div class="footer-links-section">
+          <h3 class="footer-links-title">Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#values">Values</a></li>
+            <li><a href="about.html#founder-about">Founder</a></li>
+            <li><a href="about.html#clients">Case Studies</a></li>
+          </ul>
+        </div>
+        <!-- Resources Column -->
+        <div class="footer-links-section">
+          <h3 class="footer-links-title">Resources</h3>
+          <ul class="footer-links">
+            <li><a href="about.html#impact">Why Coimbatore</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="index.html#faq">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <!-- Copyright -->
+        <div class="footer-copy">
+          <small>© 2025 Win Corp Consulting. All rights reserved.</small>
+        </div>
+      </div>
+    </footer>
+
+    <!-- AOS - Animate On Scroll Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Lenis smooth scroll (darkroom.engineering) -->
+    <script src="https://unpkg.com/lenis@1.3.14/dist/lenis.min.js"></script>
+
+
+    <!-- GSAP for typography animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+       <script src="https://unpkg.com/@lukeed/split-type"></script>
+
+    <!-- Main app script -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>

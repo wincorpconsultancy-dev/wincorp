@@ -1,0 +1,545 @@
+/* ---------- SERVICES – BY THE NUMBERS SECTION ---------- */
+
+.services-metrics {
+  position: relative;
+  padding: 90px 0 104px;
+  background:
+    radial-gradient(circle at top left, rgba(92, 46, 165, 0.18), transparent 58%),
+    radial-gradient(circle at bottom right, rgba(14, 166, 75, 0.16), transparent 58%),
+    #faf7ff;
+  color: var(--primary-ink);
+  overflow: hidden;
+}
+
+/* soft inner panel like About */
+.services-metrics::before {
+  content: "";
+  position: absolute;
+  inset: 32px 0;
+  margin-inline: auto;
+  max-width: 1100px;
+  border-radius: 32px;
+  background: linear-gradient(
+    140deg,
+    rgba(255, 255, 255, 0.96),
+    rgba(245, 239, 255, 0.98)
+  );
+  border: 1px solid rgba(92, 46, 165, 0.12);
+  box-shadow:
+    0 26px 70px rgba(32, 16, 59, 0.20),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.7);
+  pointer-events: none;
+}
+
+.services-metrics-inner {
+  position: relative;
+  z-index: 1;
+}
+
+.services-metrics-header .section-kicker {
+  color: var(--secondary-deep);
+}
+
+.services-metrics-header .section-title {
+  background: linear-gradient(
+    90deg,
+    var(--primary),
+    var(--primary-light),
+    var(--secondary-light)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 800;
+}
+
+.services-metrics-header .section-subtitle {
+  max-width: 640px;
+}
+
+/* hero strip */
+
+.services-hero-strip {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.services-hero-pill {
+  position: relative;
+  padding: 14px 16px;
+  border-radius: 18px;
+  background: radial-gradient(circle at 0 0,
+              rgba(255, 255, 255, 0.95),
+              #f3ecff);
+  border: 1px solid rgba(92, 46, 165, 0.22);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.services-hero-pill::before {
+  content: "";
+  position: absolute;
+  right: -40px;
+  top: -40px;
+  width: 110px;
+  height: 110px;
+  background: conic-gradient(
+    from 210deg,
+    rgba(118, 70, 193, 0.25),
+    rgba(18, 201, 93, 0.5),
+    transparent 70%
+  );
+  opacity: 0.7;
+}
+
+.services-hero-label {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: rgba(56, 26, 104, 0.75);
+}
+
+.services-hero-value {
+  display: block;
+  margin-top: 4px;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--primary-ink);
+}
+
+.services-hero-note {
+  margin-top: 3px;
+  font-size: 0.86rem;
+  color: var(--muted);
+}
+
+/* ---------- SERVICES STACK – sticky panels & static left text ---------- */
+
+.services-stack {
+  position: relative;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  gap: 32px;
+}
+
+/* LEFT COLUMN – static-ish text */
+
+.services-stack-left {
+  position: relative;  /* no sticky, JS will pin it */
+  align-self: flex-start;
+}
+
+
+.services-stack-kicker {
+  font-size: 0.8rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--secondary-deep);
+  margin-bottom: 8px;
+}
+
+.services-stack-title {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  font-weight: 800;
+  margin-bottom: 8px;
+  background: linear-gradient(
+    90deg,
+    var(--primary),
+    var(--primary-light),
+    var(--secondary-light)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.services-stack-title span {
+  white-space: nowrap;
+}
+
+.services-stack-note {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--muted);
+  max-width: 360px;
+}
+
+/* step list */
+
+.services-stack-steps {
+  margin-top: 16px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.services-stack-step {
+  border-radius: 999px;
+  padding: 8px 10px;
+  border: 1px solid rgba(92, 46, 165, 0.13);
+  background: rgba(250, 247, 255, 0.75);
+  cursor: default;
+  transition:
+    border-color 200ms var(--ease),
+    background 200ms var(--ease),
+    transform 200ms var(--ease),
+    box-shadow 200ms var(--ease);
+}
+
+.services-stack-step .step-label {
+  font-size: 0.82rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(56, 26, 104, 0.7);
+}
+
+/* active step */
+
+.services-stack-step.is-active {
+  background: linear-gradient(
+    90deg,
+    rgba(92, 46, 165, 0.16),
+    rgba(14, 166, 75, 0.14)
+  );
+  border-color: rgba(92, 46, 165, 0.45);
+  box-shadow: 0 10px 28px rgba(32, 16, 59, 0.25);
+  transform: translateX(4px);
+}
+
+.services-stack-step.is-active .step-label {
+  color: var(--primary-ink);
+}
+
+/* RIGHT COLUMN – stacked panels */
+
+.services-stack-right {
+  position: relative;
+}
+
+/* panels: sticky so they stack and overlay */
+.services-step-panel {
+  position: sticky;
+  top: 96px; /* align with left */
+  margin-bottom: 40px;
+  border-radius: 20px;
+  padding: 18px 18px 18px 20px;
+  background: radial-gradient(circle at 0 0,
+              rgba(255, 255, 255, 0.96),
+              #ffffff);
+  border: 1px solid rgba(92, 46, 165, 0.18);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+/* gradient frame & sheen */
+.services-step-panel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    135deg,
+    rgba(118, 70, 193, 0.45),
+    rgba(14, 166, 75, 0.55)
+  );
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 220ms var(--ease);
+}
+
+.services-step-panel::after {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  border-radius: inherit;
+  background:
+    radial-gradient(circle at 0 0, rgba(255, 255, 255, 0.96), transparent 55%),
+    #ffffff;
+  pointer-events: none;
+}
+
+.services-step-panel .service-metric-header,
+.services-step-panel .service-metric-body {
+  position: relative;
+  z-index: 1;
+}
+
+/* active panel (set from JS) */
+.services-step-panel.is-active {
+  box-shadow: var(--shadow-lg);
+}
+
+.services-step-panel.is-active::before {
+  opacity: 0.9;
+}
+
+/* shared metric styles (safe even if you already have similar) */
+
+.service-metric-header {
+  margin-bottom: 8px;
+}
+
+.service-metric-tag {
+  display: inline-block;
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--secondary-deep);
+  border: 1px solid rgba(9, 133, 60, 0.26);
+  background: rgba(14, 166, 75, 0.06);
+}
+
+.service-metric-title {
+  margin-top: 8px;
+  font-size: 1.02rem;
+  font-weight: 600;
+  color: var(--primary-ink);
+}
+
+.service-metric-body {
+  margin-top: 6px;
+}
+
+.service-metric-lead {
+  font-size: 0.94rem;
+  color: var(--muted);
+}
+
+.service-metric-body--split {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.metric-column {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.metric-list {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0;
+}
+
+.metric-list li {
+  position: relative;
+  padding-left: 12px;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.metric-list li + li {
+  margin-top: 4px;
+}
+
+.metric-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--secondary-deep);
+}
+
+.metric-list--compact li {
+  margin-top: 3px;
+}
+
+.metric-sub {
+  display: block;
+  font-size: 0.84rem;
+  color: rgba(56, 26, 104, 0.8);
+}
+
+.metric-subheading {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--primary-ink);
+}
+
+/* responsive */
+
+@media (max-width: 1024px) {
+  .services-hero-strip {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .services-stack {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+  }
+
+  .services-stack-left {
+    position: static;
+  }
+
+  .service-metric-body--split {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .services-step-panel {
+    top: 82px;
+  }
+}
+
+@media (max-width: 640px) {
+  .services-metrics::before {
+    inset: 20px 0;
+    border-radius: 24px;
+  }
+
+  .services-step-panel {
+    top: 74px;
+  }
+
+  .services-stack-title {
+    font-size: 1.3rem;
+  }
+
+  .services-stack-note {
+    max-width: 100%;
+  }
+
+  .services-stack-step {
+    padding: 7px 10px;
+  }
+}
+
+
+
+/* ---------- SERVICES STACK – mobile layout + floating stage pill ---------- */
+@media (max-width: 767px) {
+  /* stack becomes a vertical flow */
+  .services-stack {
+    display: block;
+  }
+
+  /* left block becomes a nice gradient card at top of section */
+  .services-stack-left {
+    position: relative;
+    margin-bottom: 14px;
+    padding: 14px 16px;
+    border-radius: 20px;
+    background: linear-gradient(
+      135deg,
+      rgba(92, 46, 165, 0.96),
+      rgba(118, 70, 193, 0.96),
+      rgba(14, 166, 75, 0.9)
+    );
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.32);
+    color: #ffffff;
+  }
+
+  .services-stack-kicker {
+    font-size: 0.75rem;
+    margin-bottom: 4px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.86);
+  }
+
+  .services-stack-title {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    font-weight: 700;
+    margin-bottom: 6px;
+    background: none;
+    -webkit-background-clip: initial;
+    background-clip: initial;
+    color: #ffffff;
+  }
+
+  .services-stack-title span {
+    white-space: normal;
+  }
+
+  .services-stack-note {
+    font-size: 0.82rem;
+    color: rgba(255, 255, 255, 0.88);
+    max-width: 100%;
+  }
+
+  /* steps now become compact chips at the bottom of that card */
+  .services-stack-steps {
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .services-stack-step {
+    padding: 4px 9px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    background: rgba(0, 0, 0, 0.16);
+    box-shadow: none;
+    transform: none;
+  }
+
+  .services-stack-step .step-label {
+    font-size: 0.68rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .services-stack-step.is-active {
+    background: rgba(255, 255, 255, 0.25);
+    border-color: #ffffff;
+  }
+
+  .services-stack-step.is-active .step-label {
+    color: #ffffff;
+  }
+
+  /* give panels some breathing room */
+  .services-stack-right {
+    margin-top: 6px;
+  }
+
+  .services-step-panel {
+    top: auto; /* no sticky on mobile */
+    position: relative;
+    margin-bottom: 18px;
+  }
+
+  /* small floating stage pill at top-right on mobile */
+  .services-mobile-marker {
+    position: fixed;
+    top: 76px; /* just under header */
+    right: 12px;
+    z-index: 70;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: linear-gradient(
+      120deg,
+      rgba(92, 46, 165, 0.96),
+      rgba(14, 166, 75, 0.96)
+    );
+    box-shadow: 0 14px 32px rgba(0, 0, 0, 0.32);
+    color: #ffffff;
+    font-size: 0.7rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    opacity: 0;
+    transform: translateY(-8px);
+    pointer-events: none;
+    transition:
+      opacity 200ms var(--ease),
+      transform 200ms var(--ease);
+  }
+
+  .services-mobile-marker.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+}
