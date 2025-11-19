@@ -938,6 +938,29 @@
   color: var(--primary-ink);
 }
 
+/* Partnership title gradient */
+.partnership-title {
+  background: linear-gradient(
+    120deg,
+    #5c2ea5 0%,
+    #7646c1 25%,
+    #0ea64b 50%,
+    #12c95d 75%,
+    #5c2ea5 100%
+  );
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 800;
+  animation: gradient-shift 8s ease infinite;
+}
+
+@keyframes gradient-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
 .founder-inner {
   position: relative;
   display: grid;
@@ -1050,6 +1073,36 @@
   font-size: 1.05rem;
   line-height: 1.8;
   color: var(--primary-ink);
+}
+
+/* Founder highlights list */
+.founder-highlights-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.founder-highlights-list li {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 16px;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--primary-ink);
+}
+
+.founder-highlights-list li:before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--secondary);
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.founder-highlights-list li strong {
+  color: var(--primary);
+  font-weight: 600;
 }
 
 /* stats row – restrained, not “hyper-modern” */

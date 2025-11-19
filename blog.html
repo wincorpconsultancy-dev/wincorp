@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blog – Win Corp Textile Insights & Industry News</title>
+    <meta name="description" content="Stay updated with the latest insights on knitwear manufacturing, textile industry trends, and expert consulting advice from Win Corp." />
+    <meta name="keywords" content="textile blog, knitwear insights, manufacturing trends, industry news, textile consulting, Coimbatore textile updates" />
+
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/blog-styles.css" />
+
+    <!-- AOS - Animate On Scroll Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <style>
+      /* Ensure AOS elements are visible before library loads */
+      [data-aos] {
+        opacity: 1 !important;
+        transform: none !important;
+        visibility: visible !important;
+      }
+      html:not(.no-js) [data-aos].aos-init {
+        opacity: 0;
+      }
+      html:not(.no-js) [data-aos].aos-animate {
+        opacity: 1;
+      }
+    </style>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon_io/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="images/favicon_io/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/favicon_io/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon_io/site.webmanifest">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- HEADER -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo" aria-label="Win Corp Home">
+          <img class="logo-img" src="images/win-logo.png" alt="Win Corp logo" />
+          <span class="logo-type">Win Corp</span>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="nav-desktop" aria-label="Primary Navigation">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">
+                <span class="nav-link-text">Home</span>
+                <span class="nav-link-underline"></span>
+              </a>
+            </li>
+            <li class="nav-item has-dropdown">
+              <a href="service.html" class="nav-link">
+                <span class="nav-link-text">Services</span>
+                <svg class="dropdown-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+                <span class="nav-link-underline"></span>
+              </a>
+              <div class="dropdown-menu">
+                <div class="dropdown-content">
+                  <a href="index.html#services" class="dropdown-item">
+                    <div class="dropdown-item-icon">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="14" width="7" height="7"></rect>
+                        <rect x="3" y="14" width="7" height="7"></rect>
+                      </svg>
+                    </div>
+                    <span>All Services</span>
+                  </a>
+                  <a href="service.html#services" class="dropdown-item">
+                    <div class="dropdown-item-icon">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                      </svg>
+                    </div>
+                    <span>Service Metrics</span>
+                  </a>
+                  <a href="about.html#clients" class="dropdown-item">
+                    <div class="dropdown-item-icon">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                      </svg>
+                    </div>
+                    <span>Case Studies</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">
+                <span class="nav-link-text">About</span>
+              </a>
+            </li>
+            <li class="nav-item has-dropdown">
+              <a href="about.html#impact" class="nav-link">
+                <span class="nav-link-text">Resources</span>
+                <svg class="dropdown-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+                <span class="nav-link-underline"></span>
+              </a>
+              <div class="dropdown-menu">
+                <div class="dropdown-content">
+                  <a href="about.html#impact" class="dropdown-item">
+                    <div class="dropdown-item-icon">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                      </svg>
+                    </div>
+                    <span>Why Coimbatore</span>
+                  </a>
+                  <a href="index.html#faq" class="dropdown-item">
+                    <div class="dropdown-item-icon">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                        <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                      </svg>
+                    </div>
+                    <span>FAQ</span>
+                  </a>
+                  <a href="blog.html" class="dropdown-item">
+                    <div class="dropdown-item-icon">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                      </svg>
+                    </div>
+                    <span>Blog</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">
+                <span class="nav-link-text">Contact</span>
+                <span class="nav-link-underline"></span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="nav-toggle" aria-controls="nav-mobile" aria-expanded="false" aria-label="Toggle navigation menu">
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+        </button>
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-menu-overlay"></div>
+        <nav id="nav-mobile" class="nav-mobile" aria-label="Mobile Navigation">
+          <div class="nav-mobile-header">
+            <span class="nav-mobile-title">Menu</span>
+            <button class="nav-mobile-close" aria-label="Close menu">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+              </svg>
+            </button>
+          </div>
+          <ul class="nav-mobile-list">
+            <li class="nav-mobile-item">
+              <a href="index.html" class="nav-mobile-link">
+                <svg class="nav-mobile-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                </svg>
+                <span>Home</span>
+              </a>
+            </li>
+            <li class="nav-mobile-item has-submenu">
+              <a href="service.html" class="nav-mobile-link">
+                <svg class="nav-mobile-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="3" width="7" height="7"></rect>
+                  <rect x="14" y="3" width="7" height="7"></rect>
+                  <rect x="14" y="14" width="7" height="7"></rect>
+                  <rect x="3" y="14" width="7" height="7"></rect>
+                </svg>
+                <span>Services</span>
+                <svg class="submenu-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </a>
+              <ul class="nav-mobile-submenu">
+                <li><a href="index.html#services" class="nav-mobile-sublink">All Services</a></li>
+                <li><a href="service.html#services" class="nav-mobile-sublink">Service Metrics</a></li>
+                <li><a href="about.html#clients" class="nav-mobile-sublink">Case Studies</a></li>
+              </ul>
+            </li>
+            <li class="nav-mobile-item has-submenu">
+              <a href="about.html" class="nav-mobile-link">
+                <svg class="nav-mobile-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="12" y1="8" x2="12" y2="16"></line>
+                  <line x1="8" y1="12" x2="16" y2="12"></line>
+                </svg>
+                <span>About</span>
+                <svg class="submenu-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </a>
+              <ul class="nav-mobile-submenu">
+                <li><a href="index.html#values" class="nav-mobile-sublink">Values</a></li>
+                <li><a href="about.html#founder-about" class="nav-mobile-sublink">Founder</a></li>
+                <li><a href="about.html#impact" class="nav-mobile-sublink">Impact</a></li>
+              </ul>
+            </li>
+            <li class="nav-mobile-item has-submenu">
+              <a href="about.html#impact" class="nav-mobile-link">
+                <svg class="nav-mobile-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                </svg>
+                <span>Resources</span>
+                <svg class="submenu-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </a>
+              <ul class="nav-mobile-submenu">
+                <li><a href="about.html#impact" class="nav-mobile-sublink">Why Coimbatore</a></li>
+                <li><a href="index.html#faq" class="nav-mobile-sublink">FAQ</a></li>
+                <li><a href="blog.html" class="nav-mobile-sublink">Blog</a></li>
+              </ul>
+            </li>
+            <li class="nav-mobile-item">
+              <a href="contact.html" class="nav-mobile-link nav-mobile-link-highlight">
+                <svg class="nav-mobile-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <span>Contact</span>
+              </a>
+            </li>
+          </ul>
+          <div class="nav-mobile-footer">
+            <a href="tel:+919894940792" class="nav-mobile-phone">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+              <span>+91 98949 40792</span>
+            </a>
+          </div>
+        </nav>
+
+        <!-- Desktop CTA -->
+        <div class="header-cta">
+          <a href="tel:+919894940792" class="header-phone">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            <span>+91 98949 40792</span>
+          </a>
+          <a href="contact.html" class="btn btn-header">Get Consultation</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main id="main">
+      <!-- HERO -->
+      <section class="hero section" style="padding-bottom: 60px;">
+        <div class="container">
+          <div class="hero-copy reveal" style="text-align: center; max-width: 800px; margin: 0 auto;">
+            <p class="eyebrow hero-eyebrow">
+              Insights & Industry Knowledge
+            </p>
+            <h1 class="hero-title" style="font-size: clamp(2.5rem, 6vw, 4rem);">
+              Textile Industry Blog
+            </h1>
+            <p class="lead hero-lead" style="text-align: center;">
+              Expert insights on knitwear manufacturing, industry trends, best practices, and the latest innovations shaping the textile sector.
+            </p>
+          </div>
+        </div>
+        <svg class="hero-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" preserveAspectRatio="none">
+          <path d="M0,64 C360,100 720,20 1080,64 C1320,90 1440,40 1440,40 L1440,120 L0,120 Z" fill="#faf7ff"/>
+        </svg>
+      </section>
+
+      <!-- BLOG GRID -->
+      <section class="section" style="padding-top: 40px;">
+        <div class="container">
+          <!-- Featured Post -->
+          <article class="blog-featured-post" data-aos="fade-up" data-aos-duration="800">
+            <div class="blog-featured-image">
+              <div class="blog-featured-badge">Featured</div>
+              <div class="blog-image-placeholder" style="background: linear-gradient(135deg, var(--primary-light), var(--secondary-light));"></div>
+            </div>
+            <div class="blog-featured-content">
+              <div class="blog-meta">
+                <span class="blog-category">Industry Insights</span>
+                <span class="blog-date">March 15, 2025</span>
+              </div>
+              <h2 class="blog-featured-title">The Future of Sustainable Knitwear Manufacturing in India</h2>
+              <p class="blog-featured-excerpt">
+                Explore how sustainable practices and eco-friendly technologies are transforming the knitwear industry. From organic materials to energy-efficient processes, discover what's driving the green revolution in textile manufacturing.
+              </p>
+              <div class="blog-author">
+                <div class="blog-author-avatar"></div>
+                <div class="blog-author-info">
+                  <div class="blog-author-name">Win Corp Team</div>
+                  <div class="blog-author-role">Industry Experts</div>
+                </div>
+              </div>
+              <a href="#" class="btn">Read Full Article</a>
+            </div>
+          </article>
+
+          <!-- Blog Posts Grid -->
+          <div class="blog-grid">
+            <!-- Post 1 -->
+            <article class="blog-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+              <div class="blog-card-image">
+                <div class="blog-image-placeholder" style="background: linear-gradient(135deg, #7646C1, #5C2EA5);"></div>
+                <span class="blog-card-category">Manufacturing</span>
+              </div>
+              <div class="blog-card-content">
+                <div class="blog-card-meta">
+                  <span class="blog-card-date">March 12, 2025</span>
+                  <span class="blog-card-readtime">5 min read</span>
+                </div>
+                <h3 class="blog-card-title">10 Essential Steps to Set Up Your First Knitwear Factory</h3>
+                <p class="blog-card-excerpt">
+                  A comprehensive guide for entrepreneurs looking to establish their first knitwear manufacturing unit. Learn about location selection, machinery requirements, and workforce planning.
+                </p>
+                <a href="#" class="blog-card-link">
+                  <span>Read More</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </article>
+
+            <!-- Post 2 -->
+            <article class="blog-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+              <div class="blog-card-image">
+                <div class="blog-image-placeholder" style="background: linear-gradient(135deg, #12C95D, #0EA64B);"></div>
+                <span class="blog-card-category">Technology</span>
+              </div>
+              <div class="blog-card-content">
+                <div class="blog-card-meta">
+                  <span class="blog-card-date">March 10, 2025</span>
+                  <span class="blog-card-readtime">7 min read</span>
+                </div>
+                <h3 class="blog-card-title">Automation in Textile Processing: ROI and Implementation</h3>
+                <p class="blog-card-excerpt">
+                  Discover how automation technologies are revolutionizing textile processing. We analyze the return on investment and provide a roadmap for successful implementation.
+                </p>
+                <a href="#" class="blog-card-link">
+                  <span>Read More</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </article>
+
+            <!-- Post 3 -->
+            <article class="blog-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+              <div class="blog-card-image">
+                <div class="blog-image-placeholder" style="background: linear-gradient(135deg, #5C2EA5, #381a68);"></div>
+                <span class="blog-card-category">Quality Control</span>
+              </div>
+              <div class="blog-card-content">
+                <div class="blog-card-meta">
+                  <span class="blog-card-date">March 8, 2025</span>
+                  <span class="blog-card-readtime">6 min read</span>
+                </div>
+                <h3 class="blog-card-title">Quality Standards and Compliance for Export Markets</h3>
+                <p class="blog-card-excerpt">
+                  Navigate the complex world of international quality standards. Learn about certifications, testing protocols, and audit requirements for successful exports.
+                </p>
+                <a href="#" class="blog-card-link">
+                  <span>Read More</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </article>
+
+            <!-- Post 4 -->
+            <article class="blog-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+              <div class="blog-card-image">
+                <div class="blog-image-placeholder" style="background: linear-gradient(135deg, #09853C, #0EA64B);"></div>
+                <span class="blog-card-category">Optimization</span>
+              </div>
+              <div class="blog-card-content">
+                <div class="blog-card-meta">
+                  <span class="blog-card-date">March 5, 2025</span>
+                  <span class="blog-card-readtime">8 min read</span>
+                </div>
+                <h3 class="blog-card-title">Lean Manufacturing in Textile: Reducing Waste, Boosting Efficiency</h3>
+                <p class="blog-card-excerpt">
+                  Implement lean principles in your textile operation. Practical strategies for waste reduction, process optimization, and continuous improvement.
+                </p>
+                <a href="#" class="blog-card-link">
+                  <span>Read More</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </article>
+
+            <!-- Post 5 -->
+            <article class="blog-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+              <div class="blog-card-image">
+                <div class="blog-image-placeholder" style="background: linear-gradient(135deg, #7646C1, #12C95D);"></div>
+                <span class="blog-card-category">Supply Chain</span>
+              </div>
+              <div class="blog-card-content">
+                <div class="blog-card-meta">
+                  <span class="blog-card-date">March 3, 2025</span>
+                  <span class="blog-card-readtime">5 min read</span>
+                </div>
+                <h3 class="blog-card-title">Building Resilient Supply Chains in the Textile Industry</h3>
+                <p class="blog-card-excerpt">
+                  Learn how to create robust vendor networks and manage supply chain risks. Insights on procurement strategies and supplier relationship management.
+                </p>
+                <a href="#" class="blog-card-link">
+                  <span>Read More</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </article>
+
+            <!-- Post 6 -->
+            <article class="blog-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+              <div class="blog-card-image">
+                <div class="blog-image-placeholder" style="background: linear-gradient(135deg, #381a68, #5C2EA5);"></div>
+                <span class="blog-card-category">Trends</span>
+              </div>
+              <div class="blog-card-content">
+                <div class="blog-card-meta">
+                  <span class="blog-card-date">March 1, 2025</span>
+                  <span class="blog-card-readtime">6 min read</span>
+                </div>
+                <h3 class="blog-card-title">Coimbatore's Textile Hub: Opportunities and Advantages</h3>
+                <p class="blog-card-excerpt">
+                  Why Coimbatore remains the preferred destination for textile manufacturing. Explore the infrastructure, skilled workforce, and ecosystem advantages.
+                </p>
+                <a href="#" class="blog-card-link">
+                  <span>Read More</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog Post Modal -->
+      <div id="blogModal" class="blog-modal">
+        <div class="blog-modal-overlay"></div>
+        <div class="blog-modal-container">
+          <button class="blog-modal-close" aria-label="Close modal">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+          <div class="blog-modal-content" data-lenis-prevent>
+            <div class="blog-modal-header">
+              <div class="blog-modal-meta">
+                <span class="blog-category" id="modalCategory"></span>
+                <span class="blog-date" id="modalDate"></span>
+              </div>
+              <h2 class="blog-modal-title" id="modalTitle"></h2>
+              <div class="blog-author">
+                <div class="blog-author-avatar"></div>
+                <div class="blog-author-info">
+                  <div class="blog-author-name">Win Corp Team</div>
+                  <div class="blog-author-role">Industry Experts</div>
+                </div>
+              </div>
+            </div>
+            <div class="blog-modal-image">
+              <div class="blog-image-placeholder" id="modalImage"></div>
+            </div>
+            <div class="blog-modal-body" id="modalBody">
+              <!-- Content will be inserted here -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <svg class="footer-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" preserveAspectRatio="none">
+        <path d="M0,64 C360,100 720,20 1080,64 C1320,90 1440,40 1440,40 L1440,120 L0,120 Z" fill="#faf7ff"/>
+      </svg>
+      <div class="container footer-inner">
+        <!-- Brand Column -->
+        <div class="footer-brand">
+          <img class="footer-logo-img" src="images/win-logo.png" alt="Win Corp Logo" />
+          <span class="logo-type">Win Corp Consulting</span>
+          <p class="footer-tagline">Empowering Textile Manufacturing Excellence with Expert Guidance</p>
+        </div>
+        <!-- Quick Links Column -->
+        <div class="footer-links-section">
+          <h3 class="footer-links-title">Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#values">Values</a></li>
+            <li><a href="about.html#founder-about">Founder</a></li>
+            <li><a href="about.html#clients">Case Studies</a></li>
+          </ul>
+        </div>
+        <!-- Resources Column -->
+        <div class="footer-links-section">
+          <h3 class="footer-links-title">Resources</h3>
+          <ul class="footer-links">
+            <li><a href="about.html#impact">Why Coimbatore</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="index.html#faq">FAQ</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <!-- Copyright -->
+        <div class="footer-copy">
+          <small>© 2025 Win Corp Consulting. All rights reserved.</small>
+        </div>
+      </div>
+    </footer>
+
+    <!-- AOS - Animate On Scroll Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Lenis smooth scroll -->
+    <script src="https://unpkg.com/lenis@1.3.14/dist/lenis.min.js"></script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <!-- Main app script -->
+    <script src="./js/script.js"></script>
+
+    <!-- Blog Modal Script -->
+    <script>
+      // Blog posts data with full content
+      const blogPosts = {
+        'featured': {
+          category: 'Industry Insights',
+          date: 'March 15, 2025',
+          title: 'The Future of Sustainable Knitwear Manufacturing in India',
+          image: 'linear-gradient(135deg, #7646C1, #12C95D)',
+          content: `
+            <p class="lead">The textile industry is undergoing a revolutionary transformation as sustainability becomes not just a trend, but a necessity. In India's knitwear manufacturing sector, this shift is creating unprecedented opportunities for innovation and growth.</p>
+
+            <h3>The Rise of Eco-Conscious Manufacturing</h3>
+            <p>Consumer demand for sustainable products has never been higher. Global brands are increasingly seeking manufacturing partners who can demonstrate environmental responsibility throughout their production processes. This shift presents a unique opportunity for Indian manufacturers to position themselves as leaders in sustainable textile production.</p>
+
+            <h3>Key Sustainability Practices</h3>
+            <ul>
+              <li><strong>Organic and Recycled Materials:</strong> Transitioning to organic cotton, recycled polyester, and innovative materials like bamboo fiber and Tencel reduces environmental impact while meeting consumer expectations.</li>
+              <li><strong>Water Conservation:</strong> Advanced dyeing technologies and water recycling systems can reduce water consumption by up to 60% compared to traditional methods.</li>
+              <li><strong>Energy Efficiency:</strong> Solar installations, LED lighting, and energy-efficient machinery significantly reduce carbon footprint and operational costs.</li>
+              <li><strong>Waste Reduction:</strong> Zero-waste cutting techniques and fabric recycling programs minimize material waste throughout the production cycle.</li>
+            </ul>
+
+            <h3>Technology Enabling Sustainability</h3>
+            <p>Modern technology plays a crucial role in making sustainable manufacturing economically viable. Digital printing reduces water and chemical usage, while AI-powered inventory management minimizes overproduction. Automation in quality control ensures first-time-right production, reducing waste from defects.</p>
+
+            <h3>Certifications and Standards</h3>
+            <p>International certifications like GOTS (Global Organic Textile Standard), OEKO-TEX, and Fair Trade are becoming essential for export markets. These certifications not only open doors to premium buyers but also command better pricing for manufacturers who invest in sustainable practices.</p>
+
+            <h3>The Business Case</h3>
+            <p>While initial investments in sustainable infrastructure may seem substantial, the long-term benefits are compelling:</p>
+            <ul>
+              <li>Access to premium markets and buyers willing to pay sustainable premiums</li>
+              <li>Reduced operational costs through energy and water efficiency</li>
+              <li>Enhanced brand reputation and competitive differentiation</li>
+              <li>Compliance with increasingly stringent environmental regulations</li>
+            </ul>
+
+            <h3>Looking Ahead</h3>
+            <p>The future of knitwear manufacturing in India will be defined by those who embrace sustainability today. As Win Corp consultants, we help manufacturers navigate this transition, from selecting appropriate technologies to achieving necessary certifications. The path to sustainable manufacturing is not just environmentally responsible—it's economically smart.</p>
+
+            <p><em>Ready to transform your manufacturing operations? Contact Win Corp for a comprehensive sustainability assessment and implementation roadmap.</em></p>
+          `
+        },
+        'post1': {
+          category: 'Manufacturing',
+          date: 'March 12, 2025',
+          title: '10 Essential Steps to Set Up Your First Knitwear Factory',
+          image: 'linear-gradient(135deg, #7646C1, #5C2EA5)',
+          content: `
+            <p class="lead">Starting a knitwear manufacturing unit is an exciting venture, but it requires careful planning and execution. This comprehensive guide walks you through the essential steps to establish a successful operation.</p>
+
+            <h3>1. Market Research and Business Planning</h3>
+            <p>Begin with thorough market research to identify your target segments, whether it's basic knitwear, premium fashion, or export markets. Develop a detailed business plan outlining your production capacity, target markets, and financial projections.</p>
+
+            <h3>2. Location Selection</h3>
+            <p>Choose a location that offers proximity to raw material suppliers, skilled labor availability, good infrastructure, and ease of logistics. Coimbatore and Tiruppur remain preferred locations due to their established textile ecosystem.</p>
+
+            <h3>3. Factory Layout and Design</h3>
+            <p>Plan an efficient factory layout that optimizes workflow from raw material storage through production to finished goods warehousing. Consider future expansion possibilities in your initial design.</p>
+
+            <h3>4. Machinery Selection</h3>
+            <p>Invest in the right machinery based on your product mix. Essential equipment includes:</p>
+            <ul>
+              <li>Knitting machines (circular or flat bed depending on products)</li>
+              <li>Linking machines for assembly</li>
+              <li>Washing and dyeing equipment</li>
+              <li>Finishing and pressing machinery</li>
+              <li>Quality inspection equipment</li>
+            </ul>
+
+            <h3>5. Vendor Development</h3>
+            <p>Establish relationships with reliable suppliers for yarn, chemicals, accessories, and spare parts. Develop backup vendors to ensure continuity of operations.</p>
+
+            <h3>6. Workforce Planning and Training</h3>
+            <p>Recruit experienced supervisors and train operators in machine operation, quality standards, and safety protocols. Plan for adequate staffing across all shifts.</p>
+
+            <h3>7. Quality Systems Implementation</h3>
+            <p>Set up quality control processes from incoming material inspection through in-process checks to final inspection. Document all SOPs and train staff accordingly.</p>
+
+            <h3>8. Compliance and Certifications</h3>
+            <p>Ensure compliance with local regulations including factory licensing, environmental clearances, and labor laws. Plan for certifications required by your target buyers.</p>
+
+            <h3>9. Production Planning Systems</h3>
+            <p>Implement systems for order management, production planning, inventory control, and delivery tracking. Even basic ERP systems can dramatically improve efficiency.</p>
+
+            <h3>10. Pilot Production and Optimization</h3>
+            <p>Run pilot production batches to identify bottlenecks, train staff, and optimize processes before scaling to full capacity. Use this phase to establish baseline productivity metrics.</p>
+
+            <p><em>Win Corp provides end-to-end consulting for factory setup, from location selection to successful commercial production. Contact us to discuss your project.</em></p>
+          `
+        },
+        'post2': {
+          category: 'Technology',
+          date: 'March 10, 2025',
+          title: 'Automation in Textile Processing: ROI and Implementation',
+          image: 'linear-gradient(135deg, #12C95D, #0EA64B)',
+          content: `
+            <p class="lead">Automation is transforming textile processing, offering significant improvements in efficiency, consistency, and cost-effectiveness. Understanding the return on investment and implementation strategy is crucial for successful adoption.</p>
+
+            <h3>Why Automate?</h3>
+            <p>Modern textile processing faces increasing pressure to deliver consistent quality, faster turnaround times, and competitive pricing. Automation addresses these challenges while reducing dependency on manual labor and minimizing human error.</p>
+
+            <h3>Key Areas for Automation</h3>
+
+            <h4>Material Handling</h4>
+            <p>Automated fabric handling systems reduce damage, improve throughput, and ensure consistent processing. ROI typically achieved within 18-24 months through reduced labor and material waste.</p>
+
+            <h4>Dyeing and Finishing</h4>
+            <p>Automated dyeing systems ensure color consistency, reduce water and chemical consumption, and improve reproducibility. Modern systems include:</p>
+            <ul>
+              <li>Automatic dispensing systems for dyes and chemicals</li>
+              <li>Computer-controlled temperature and time management</li>
+              <li>Automated pH and color measurement</li>
+            </ul>
+
+            <h4>Quality Inspection</h4>
+            <p>Vision inspection systems can detect defects faster and more consistently than manual inspection, with payback periods of 12-18 months in high-volume operations.</p>
+
+            <h3>Calculating ROI</h3>
+            <p>A comprehensive ROI calculation should include:</p>
+            <ul>
+              <li><strong>Direct savings:</strong> Reduced labor costs, lower material waste, decreased energy consumption</li>
+              <li><strong>Productivity gains:</strong> Increased throughput, reduced downtime, faster changeovers</li>
+              <li><strong>Quality improvements:</strong> Lower rejection rates, fewer customer returns, premium pricing opportunities</li>
+              <li><strong>Capacity expansion:</strong> Ability to handle more orders without proportional staff increase</li>
+            </ul>
+
+            <h3>Implementation Strategy</h3>
+
+            <h4>Phase 1: Assessment</h4>
+            <p>Identify bottlenecks and high-impact areas where automation will deliver maximum benefit. Analyze current processes to establish baseline metrics.</p>
+
+            <h4>Phase 2: Pilot Implementation</h4>
+            <p>Start with a single line or process to prove the technology and refine integration with existing systems. This reduces risk and allows for learning before full-scale deployment.</p>
+
+            <h4>Phase 3: Scale-up</h4>
+            <p>Based on pilot results, expand automation to other areas. Leverage learnings to optimize implementation timeline and costs.</p>
+
+            <h3>Common Pitfalls to Avoid</h3>
+            <ul>
+              <li>Inadequate staff training and change management</li>
+              <li>Insufficient maintenance planning and spare parts inventory</li>
+              <li>Poor integration with existing systems</li>
+              <li>Underestimating the importance of data management and analysis</li>
+            </ul>
+
+            <p><em>Win Corp helps manufacturers evaluate automation opportunities, select appropriate technologies, and implement systems that deliver measurable ROI. Schedule a consultation to explore automation potential for your operation.</em></p>
+          `
+        },
+        'post3': {
+          category: 'Quality Control',
+          date: 'March 8, 2025',
+          title: 'Quality Standards and Compliance for Export Markets',
+          image: 'linear-gradient(135deg, #5C2EA5, #381a68)',
+          content: `
+            <p class="lead">Entering export markets requires understanding and implementing international quality standards. This guide covers essential certifications, testing protocols, and audit requirements for successful global trade.</p>
+
+            <h3>Understanding International Standards</h3>
+            <p>Different markets have different requirements. European buyers typically require OEKO-TEX or GOTS certification, while American buyers may focus on WRAP or CPSIA compliance for children's wear. Understanding your target market's requirements is the first step.</p>
+
+            <h3>Essential Certifications</h3>
+
+            <h4>OEKO-TEX Standard 100</h4>
+            <p>Tests finished products for harmful substances. Widely recognized globally and often considered a baseline requirement for quality-conscious buyers.</p>
+
+            <h4>GOTS (Global Organic Textile Standard)</h4>
+            <p>Required for organic textile products. Covers the entire supply chain from fiber production to final product, including environmental and social criteria.</p>
+
+            <h4>ISO 9001</h4>
+            <p>Quality management system certification demonstrating consistent process control and continuous improvement commitment.</p>
+
+            <h3>Testing Infrastructure</h3>
+            <p>Establish comprehensive testing capabilities:</p>
+            <ul>
+              <li><strong>Physical Testing:</strong> Dimensional stability, color fastness, fabric strength, pilling resistance</li>
+              <li><strong>Chemical Testing:</strong> pH levels, formaldehyde content, heavy metals, azo dyes</li>
+              <li><strong>Performance Testing:</strong> Wash durability, wear resistance, functionality tests</li>
+            </ul>
+
+            <h3>Documentation Requirements</h3>
+            <p>Export compliance demands meticulous documentation:</p>
+            <ul>
+              <li>Material safety data sheets (MSDS) for all chemicals used</li>
+              <li>Test reports from accredited laboratories</li>
+              <li>Traceability records from fiber to finished product</li>
+              <li>Process control records and quality inspection reports</li>
+            </ul>
+
+            <h3>Audit Preparation</h3>
+            <p>Major buyers conduct regular audits covering:</p>
+            <ul>
+              <li><strong>Social Compliance:</strong> Working hours, wages, safety, child labor policies</li>
+              <li><strong>Quality Systems:</strong> Process controls, testing procedures, corrective actions</li>
+              <li><strong>Environmental Compliance:</strong> Waste management, emissions, water treatment</li>
+            </ul>
+
+            <h3>Implementation Roadmap</h3>
+
+            <h4>Month 1-2: Gap Analysis</h4>
+            <p>Compare current practices against target standards. Identify gaps and prioritize improvements.</p>
+
+            <h4>Month 3-4: Infrastructure Development</h4>
+            <p>Invest in necessary testing equipment, upgrade processes, implement documentation systems.</p>
+
+            <h4>Month 5-6: Training and Documentation</h4>
+            <p>Train staff on new procedures, document all processes, conduct internal audits.</p>
+
+            <h4>Month 7-8: Certification Process</h4>
+            <p>Engage certification bodies, undergo initial audits, address any non-conformances.</p>
+
+            <h3>Maintaining Compliance</h3>
+            <p>Certification is not a one-time achievement. Establish systems for ongoing compliance including regular internal audits, staff training updates, and continuous process improvement.</p>
+
+            <p><em>Win Corp guides manufacturers through the entire certification process, from initial gap analysis to successful audit completion. Our expertise ensures efficient implementation and first-time certification success.</em></p>
+          `
+        },
+        'post4': {
+          category: 'Optimization',
+          date: 'March 5, 2025',
+          title: 'Lean Manufacturing in Textile: Reducing Waste, Boosting Efficiency',
+          image: 'linear-gradient(135deg, #09853C, #0EA64B)',
+          content: `
+            <p class="lead">Lean manufacturing principles, when properly applied to textile operations, can dramatically improve efficiency, reduce waste, and boost profitability. This guide explores practical implementation strategies specific to the textile industry.</p>
+
+            <h3>Understanding the Eight Wastes in Textile Manufacturing</h3>
+
+            <h4>1. Overproduction</h4>
+            <p>Producing more than customer orders or producing too early creates inventory carrying costs and risks obsolescence. Implement pull-based production systems tied to actual orders.</p>
+
+            <h4>2. Waiting</h4>
+            <p>Idle time between processes due to bottlenecks, machine breakdowns, or material shortages. Address through line balancing and preventive maintenance.</p>
+
+            <h4>3. Transportation</h4>
+            <p>Unnecessary movement of materials between processes. Optimize factory layout to minimize material handling.</p>
+
+            <h4>4. Over-Processing</h4>
+            <p>Adding more value than customer requires, such as unnecessary washing cycles or inspection steps.</p>
+
+            <h4>5. Inventory</h4>
+            <p>Excess raw materials, WIP, or finished goods tie up capital and space. Right-size inventory through better planning.</p>
+
+            <h4>6. Motion</h4>
+            <p>Unnecessary movement by workers, often due to poor workstation design. Implement 5S and ergonomic improvements.</p>
+
+            <h4>7. Defects</h4>
+            <p>Quality issues requiring rework or causing rejections. Implement quality at source and error-proofing.</p>
+
+            <h4>8. Underutilized Talent</h4>
+            <p>Not leveraging worker knowledge and creativity for improvements. Foster continuous improvement culture.</p>
+
+            <h3>Key Lean Tools for Textile Manufacturing</h3>
+
+            <h4>Value Stream Mapping</h4>
+            <p>Map the entire process from raw material to finished product, identifying value-added and non-value-added activities. Focus improvement efforts on eliminating or reducing non-value-added steps.</p>
+
+            <h4>5S Workplace Organization</h4>
+            <ul>
+              <li><strong>Sort:</strong> Remove unnecessary items from work areas</li>
+              <li><strong>Set in Order:</strong> Organize everything needed for efficient access</li>
+              <li><strong>Shine:</strong> Clean and maintain equipment and workspace</li>
+              <li><strong>Standardize:</strong> Create standards for the first three S's</li>
+              <li><strong>Sustain:</strong> Maintain discipline to continue the first four S's</li>
+            </ul>
+
+            <h4>SMED (Single-Minute Exchange of Dies)</h4>
+            <p>Reduce changeover times between different products or styles. In textile operations, this applies to machine changeovers, lot changes, and style changes.</p>
+
+            <h4>Kanban Systems</h4>
+            <p>Visual signals to control inventory and production flow. Particularly effective in managing raw materials and WIP inventory.</p>
+
+            <h3>Practical Implementation Steps</h3>
+
+            <h4>Step 1: Select a Pilot Area</h4>
+            <p>Choose a specific production line or process for initial implementation. Success here builds momentum for wider adoption.</p>
+
+            <h4>Step 2: Train the Team</h4>
+            <p>Educate supervisors and operators on lean principles and tools. Create a core team of lean champions.</p>
+
+            <h4>Step 3: Current State Analysis</h4>
+            <p>Document current processes, measure baseline metrics (cycle time, defect rates, changeover times, WIP levels).</p>
+
+            <h4>Step 4: Identify Improvements</h4>
+            <p>Use value stream mapping and waste analysis to identify opportunities. Prioritize based on impact and ease of implementation.</p>
+
+            <h4>Step 5: Implement Changes</h4>
+            <p>Make improvements in rapid cycles, testing and refining approaches. Use PDCA (Plan-Do-Check-Act) methodology.</p>
+
+            <h4>Step 6: Measure Results</h4>
+            <p>Track improvements against baseline metrics. Celebrate successes and learn from setbacks.</p>
+
+            <h4>Step 7: Standardize and Expand</h4>
+            <p>Document successful improvements as new standards. Expand to other areas based on learnings.</p>
+
+            <h3>Expected Results</h3>
+            <p>Typical improvements from lean implementation:</p>
+            <ul>
+              <li>20-30% reduction in production lead time</li>
+              <li>15-25% improvement in productivity</li>
+              <li>30-50% reduction in WIP inventory</li>
+              <li>40-60% improvement in quality (reduction in defects)</li>
+              <li>25-40% reduction in floor space requirements</li>
+            </ul>
+
+            <p><em>Win Corp specializes in lean implementation for textile manufacturers. Our practical, hands-on approach delivers measurable results while building your team's capability for continuous improvement.</em></p>
+          `
+        },
+        'post5': {
+          category: 'Supply Chain',
+          date: 'March 3, 2025',
+          title: 'Building Resilient Supply Chains in the Textile Industry',
+          image: 'linear-gradient(135deg, #7646C1, #12C95D)',
+          content: `
+            <p class="lead">Recent global disruptions have highlighted the critical importance of supply chain resilience. For textile manufacturers, building robust, flexible supply chains is essential for sustained success.</p>
+
+            <h3>Understanding Supply Chain Vulnerabilities</h3>
+            <p>Common vulnerabilities in textile supply chains include:</p>
+            <ul>
+              <li>Single-source dependencies for critical materials</li>
+              <li>Long lead times from international suppliers</li>
+              <li>Lack of visibility across the supply chain</li>
+              <li>Insufficient inventory buffers for critical items</li>
+              <li>Poor communication with suppliers</li>
+            </ul>
+
+            <h3>Building Supplier Resilience</h3>
+
+            <h4>Diversification Strategy</h4>
+            <p>Develop multiple suppliers for critical materials. While this may slightly increase costs, the risk mitigation value is substantial. Aim for at least two qualified suppliers for each critical input.</p>
+
+            <h4>Supplier Development</h4>
+            <p>Work closely with key suppliers to improve their capabilities and resilience. Strong supplier relationships create mutual commitment and priority treatment during supply constraints.</p>
+
+            <h4>Local Sourcing</h4>
+            <p>Where feasible, develop local suppliers to reduce lead times and transportation risks. The Coimbatore-Tiruppur region offers extensive local supplier networks across the textile value chain.</p>
+
+            <h3>Inventory Management Strategies</h3>
+
+            <h4>Strategic Safety Stock</h4>
+            <p>Maintain calculated safety stock for:</p>
+            <ul>
+              <li>Long lead-time items</li>
+              <li>Single-source materials</li>
+              <li>High-volume consumption items</li>
+              <li>Items with volatile pricing or availability</li>
+            </ul>
+
+            <h4>ABC Analysis</h4>
+            <p>Classify inventory based on value and criticality. Focus intensive management on high-value, critical items while simplifying control of low-value items.</p>
+
+            <h3>Technology Enablement</h3>
+
+            <h4>Supply Chain Visibility</h4>
+            <p>Implement systems providing real-time visibility into:</p>
+            <ul>
+              <li>Supplier inventory levels</li>
+              <li>In-transit shipments</li>
+              <li>Production schedules</li>
+              <li>Quality metrics</li>
+            </ul>
+
+            <h4>Predictive Analytics</h4>
+            <p>Use data analytics to predict demand patterns, identify potential disruptions, and optimize inventory levels.</p>
+
+            <h3>Supplier Relationship Management</h3>
+
+            <h4>Performance Metrics</h4>
+            <p>Track and share key metrics with suppliers:</p>
+            <ul>
+              <li>On-time delivery rate</li>
+              <li>Quality acceptance rate</li>
+              <li>Lead time performance</li>
+              <li>Responsiveness to issues</li>
+            </ul>
+
+            <h4>Collaborative Planning</h4>
+            <p>Share forecasts and production plans with key suppliers. This enables them to plan capacity and materials, improving their ability to serve your needs.</p>
+
+            <h4>Regular Reviews</h4>
+            <p>Conduct quarterly business reviews with strategic suppliers to discuss performance, address issues, and plan future collaboration.</p>
+
+            <h3>Risk Management Framework</h3>
+
+            <h4>Risk Assessment</h4>
+            <p>Regularly assess supply chain risks including:</p>
+            <ul>
+              <li>Supplier financial health</li>
+              <li>Geopolitical factors</li>
+              <li>Natural disaster exposure</li>
+              <li>Transportation route vulnerabilities</li>
+            </ul>
+
+            <h4>Contingency Planning</h4>
+            <p>Develop action plans for identified risks. Test plans periodically to ensure readiness.</p>
+
+            <h3>Building Internal Capabilities</h3>
+
+            <h4>Cross-Training</h4>
+            <p>Ensure multiple team members understand key supplier relationships and processes.</p>
+
+            <h4>Documentation</h4>
+            <p>Maintain comprehensive documentation of suppliers, specifications, and processes.</p>
+
+            <h4>Continuous Improvement</h4>
+            <p>Regularly review and improve supply chain processes based on performance data and changing needs.</p>
+
+            <p><em>Win Corp helps textile manufacturers build resilient supply chains through supplier development, process optimization, and technology implementation. Contact us to assess and strengthen your supply chain.</em></p>
+          `
+        },
+        'post6': {
+          category: 'Trends',
+          date: 'March 1, 2025',
+          title: "Coimbatore's Textile Hub: Opportunities and Advantages",
+          image: 'linear-gradient(135deg, #381a68, #5C2EA5)',
+          content: `
+            <p class="lead">Coimbatore has evolved into one of India's premier textile manufacturing hubs, offering unique advantages that make it an ideal location for textile businesses. Understanding these advantages helps manufacturers maximize the benefits of this dynamic ecosystem.</p>
+
+            <h3>Historical Foundation</h3>
+            <p>Coimbatore's textile heritage spans over a century, creating deep expertise in manufacturing, strong educational institutions producing skilled talent, and established business practices that facilitate efficient operations.</p>
+
+            <h3>Infrastructure Advantages</h3>
+
+            <h4>Connectivity</h4>
+            <ul>
+              <li>International airport with cargo facilities</li>
+              <li>Well-connected to major ports (Cochin, Tuticorin)</li>
+              <li>Excellent road and rail connectivity</li>
+              <li>Proximity to major metros (Bangalore, Chennai)</li>
+            </ul>
+
+            <h4>Power Supply</h4>
+            <p>Relatively stable power supply compared to other Indian regions, critical for continuous textile operations. Growing renewable energy infrastructure provides sustainable alternatives.</p>
+
+            <h4>Industrial Parks</h4>
+            <p>Dedicated textile parks offering:</p>
+            <ul>
+              <li>Ready infrastructure</li>
+              <li>Common effluent treatment plants</li>
+              <li>Simplified regulatory compliance</li>
+              <li>Proximity to complementary businesses</li>
+            </ul>
+
+            <h3>Ecosystem Advantages</h3>
+
+            <h4>Complete Value Chain</h4>
+            <p>Coimbatore-Tiruppur region offers the entire textile value chain in proximity:</p>
+            <ul>
+              <li>Spinning mills</li>
+              <li>Weaving and knitting units</li>
+              <li>Dyeing and processing facilities</li>
+              <li>Garment manufacturing</li>
+              <li>Accessory suppliers</li>
+              <li>Machinery manufacturers and service providers</li>
+            </ul>
+
+            <h4>Supplier Network</h4>
+            <p>Extensive network of suppliers for:</p>
+            <ul>
+              <li>Raw materials (yarn, fabric, chemicals)</li>
+              <li>Machinery and spare parts</li>
+              <li>Accessories (buttons, zippers, labels)</li>
+              <li>Packaging materials</li>
+              <li>Testing and certification services</li>
+            </ul>
+
+            <h4>Service Providers</h4>
+            <p>Ready availability of specialized services:</p>
+            <ul>
+              <li>Machinery maintenance and repairs</li>
+              <li>Design and sampling services</li>
+              <li>Testing laboratories</li>
+              <li>Logistics and freight forwarding</li>
+              <li>Export documentation and compliance</li>
+            </ul>
+
+            <h3>Skilled Workforce</h3>
+
+            <h4>Educational Institutions</h4>
+            <p>Multiple institutions producing textile-trained graduates:</p>
+            <ul>
+              <li>PSG College of Technology</li>
+              <li>Kumaraguru College of Technology</li>
+              <li>Government College of Technology</li>
+              <li>National Institute of Fashion Technology (NIFT)</li>
+            </ul>
+
+            <h4>Experienced Workers</h4>
+            <p>Large pool of experienced workers across all functions from machine operators to supervisors to technical specialists.</p>
+
+            <h3>Business Environment</h3>
+
+            <h4>Entrepreneurial Culture</h4>
+            <p>Strong entrepreneurial tradition makes it easier to find business partners, suppliers, and customers who understand the industry.</p>
+
+            <h4>Industry Associations</h4>
+            <p>Active associations like SITRA (South India Textile Research Association) and TEXI provide:</p>
+            <ul>
+              <li>Industry updates and market intelligence</li>
+              <li>Networking opportunities</li>
+              <li>Training programs</li>
+              <li>Technology support</li>
+            </ul>
+
+            <h3>Cost Advantages</h3>
+
+            <h4>Competitive Operating Costs</h4>
+            <ul>
+              <li>Lower real estate costs compared to metros</li>
+              <li>Competitive labor costs</li>
+              <li>Economies of scale in utilities due to industrial concentration</li>
+              <li>Lower logistics costs due to proximity to suppliers and ports</li>
+            </ul>
+
+            <h4>Shared Resources</h4>
+            <p>Common facilities like effluent treatment plants and testing labs reduce individual business investment requirements.</p>
+
+            <h3>Market Access</h3>
+
+            <h4>Export Infrastructure</h4>
+            <p>Well-established export processes and documentation support facilitate international business.</p>
+
+            <h4>Buyer Network</h4>
+            <p>Regular visits by international buyers make it easier to connect with global markets.</p>
+
+            <h3>Future Outlook</h3>
+            <p>Ongoing developments strengthening Coimbatore's position:</p>
+            <ul>
+              <li>Infrastructure improvements (airport expansion, road development)</li>
+              <li>Technology adoption and digitalization initiatives</li>
+              <li>Sustainability focus attracting quality-conscious buyers</li>
+              <li>Government support for textile sector development</li>
+            </ul>
+
+            <h3>Making the Most of Coimbatore's Advantages</h3>
+            <p>To maximize benefits:</p>
+            <ul>
+              <li>Actively network within the textile community</li>
+              <li>Leverage local expertise and consultants</li>
+              <li>Participate in industry associations</li>
+              <li>Build strong relationships with local suppliers</li>
+              <li>Stay updated on infrastructure and policy developments</li>
+            </ul>
+
+            <p><em>Win Corp, based in Coimbatore, offers deep local expertise combined with global best practices. We help manufacturers leverage Coimbatore's advantages while navigating its challenges. Contact us to explore opportunities in this dynamic textile hub.</em></p>
+          `
+        }
+      };
+
+      // Modal functionality
+      const modal = document.getElementById('blogModal');
+      const modalOverlay = modal.querySelector('.blog-modal-overlay');
+      const modalClose = modal.querySelector('.blog-modal-close');
+      const modalCategory = document.getElementById('modalCategory');
+      const modalDate = document.getElementById('modalDate');
+      const modalTitle = document.getElementById('modalTitle');
+      const modalImage = document.getElementById('modalImage');
+      const modalBody = document.getElementById('modalBody');
+      const modalContent = modal.querySelector('.blog-modal-content');
+
+      // Open modal function
+// Open modal function
+function openModal(postId) {
+  const post = blogPosts[postId];
+  if (!post) return;
+
+  modalCategory.textContent = post.category;
+  modalDate.textContent = post.date;
+  modalTitle.textContent = post.title;
+  modalImage.style.background = post.image;
+  modalBody.innerHTML = post.content;
+
+  // Reset modal scroll position
+  modalContent.scrollTop = 0;
+
+  // Prevent background scroll – works for normal scroll
+  const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+  document.body.style.overflow = 'hidden';
+  document.body.style.paddingRight = scrollbarWidth + 'px';
+
+  // 🔒 Stop Lenis so it doesn't scroll the page behind the modal
+  if (typeof lenisInstance !== 'undefined' && lenisInstance && typeof lenisInstance.stop === 'function') {
+    lenisInstance.stop();
+  }
+
+  // Optional: also lock html overflow in case Lenis or other libs use it
+  document.documentElement.classList.add('modal-open');
+
+  modal.classList.add('active');
+}
+
+// Close modal function
+function closeModal() {
+  modal.classList.remove('active');
+
+  // Restore body scroll
+  document.body.style.overflow = '';
+  document.body.style.paddingRight = '';
+
+  // 🔓 Restart Lenis
+  if (typeof lenisInstance !== 'undefined' && lenisInstance && typeof lenisInstance.start === 'function') {
+    lenisInstance.start();
+  }
+
+  document.documentElement.classList.remove('modal-open');
+}
+
+      // Event listeners for all blog links
+      document.querySelectorAll('.blog-card-link, .blog-featured-post .btn').forEach((link, index) => {
+        link.addEventListener('click', (e) => {
+          e.preventDefault();
+          const postId = index === 0 ? 'featured' : 'post' + index;
+          openModal(postId);
+        });
+      });
+
+      // Close modal on overlay click
+      modalOverlay.addEventListener('click', closeModal);
+
+      // Close modal on close button click
+      modalClose.addEventListener('click', closeModal);
+
+      // Close modal on Escape key
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modal.classList.contains('active')) {
+          closeModal();
+        }
+      });
+    </script>
+  </body>
+</html>

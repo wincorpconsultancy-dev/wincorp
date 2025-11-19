@@ -2221,6 +2221,208 @@ if (window.gsap && window.ScrollTrigger) {
   });
 }
 
+// ========== FEATURED HIGHLIGHT SECTION GSAP ANIMATIONS ==========
+if (window.gsap && window.ScrollTrigger) {
+  gsap.registerPlugin(ScrollTrigger);
+
+  const featuredSection = document.querySelector('.featured-highlight-section');
+
+  if (featuredSection) {
+    // Create a timeline for the featured section
+    const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: featuredSection,
+        start: "top 80%",
+        end: "bottom 20%",
+        toggleActions: "play none none reverse"
+      }
+    });
+
+    // Badge animation with bounce
+    tl.fromTo('.featured-highlight-badge',
+      {
+        scale: 0,
+        opacity: 0,
+        rotation: -180
+      },
+      {
+        scale: 1,
+        opacity: 1,
+        rotation: 0,
+        duration: 0.4,
+        ease: "back.out(1.7)"
+      }
+    );
+
+    // Title animation - split and stagger
+    tl.fromTo('.featured-highlight-title',
+      {
+        x: -100,
+        opacity: 0
+      },
+      {
+        x: 0,
+        opacity: 1,
+        duration: 0.4,
+        ease: "power3.out"
+      },
+      "-=0.2"
+    );
+
+    // Gradient text with special effect
+    tl.fromTo('.featured-gradient-text',
+      {
+        x: 100,
+        opacity: 0,
+        scale: 0.8
+      },
+      {
+        x: 0,
+        opacity: 1,
+        scale: 1,
+        duration: 0.5,
+        ease: "elastic.out(1, 0.5)"
+      },
+      "-=0.3"
+    );
+
+    // Content text
+    tl.fromTo('.featured-highlight-text',
+      {
+        y: 50,
+        opacity: 0
+      },
+      {
+        y: 0,
+        opacity: 1,
+        duration: 0.4,
+        ease: "power2.out"
+      },
+      "-=0.2"
+    );
+
+    // Decorative line
+    tl.fromTo('.featured-highlight-decorative-line',
+      {
+        scaleX: 0,
+        opacity: 0
+      },
+      {
+        scaleX: 1,
+        opacity: 1,
+        duration: 0.3,
+        ease: "power2.out"
+      },
+      "-=0.1"
+    );
+
+    // Floating particles - stagger animation
+    gsap.utils.toArray('.featured-particle').forEach((particle, index) => {
+      gsap.fromTo(particle,
+        {
+          scale: 0,
+          opacity: 0
+        },
+        {
+          scale: 1,
+          opacity: 0.6,
+          duration: 0.3,
+          delay: index * 0.05,
+          ease: "power2.out",
+          scrollTrigger: {
+            trigger: featuredSection,
+            start: "top 80%",
+            toggleActions: "play none none reverse"
+          }
+        }
+      );
+    });
+
+    // Continuous floating animation for badge
+    gsap.to('.featured-highlight-badge', {
+      y: -15,
+      duration: 2.5,
+      ease: "sine.inOut",
+      yoyo: true,
+      repeat: -1
+    });
+
+    // Continuous rotation for icon
+    gsap.to('.featured-icon', {
+      rotation: 360,
+      duration: 20,
+      ease: "none",
+      repeat: -1
+    });
+
+    // Shimmer effect on gradient text
+    gsap.to('.featured-gradient-text', {
+      backgroundPosition: "200% center",
+      duration: 3,
+      ease: "none",
+      repeat: -1
+    });
+
+    // Parallax effect on scroll
+    gsap.to('.featured-highlight-glow--1', {
+      y: -50,
+      x: 50,
+      scrollTrigger: {
+        trigger: featuredSection,
+        start: "top bottom",
+        end: "bottom top",
+        scrub: 1
+      }
+    });
+
+    gsap.to('.featured-highlight-glow--2', {
+      y: 50,
+      x: -50,
+      scrollTrigger: {
+        trigger: featuredSection,
+        start: "top bottom",
+        end: "bottom top",
+        scrub: 1
+      }
+    });
+
+    gsap.to('.featured-highlight-glow--3', {
+      rotation: 360,
+      scrollTrigger: {
+        trigger: featuredSection,
+        start: "top bottom",
+        end: "bottom top",
+        scrub: 2
+      }
+    });
+
+    // Scale effect on scroll
+    gsap.to('.featured-highlight-container', {
+      scale: 1.05,
+      scrollTrigger: {
+        trigger: featuredSection,
+        start: "top center",
+        end: "bottom center",
+        scrub: 1
+      }
+    });
+
+    // Particle parallax
+    gsap.utils.toArray('.featured-particle').forEach((particle, index) => {
+      const speed = 1 + (index * 0.2);
+      gsap.to(particle, {
+        y: -100 * speed,
+        scrollTrigger: {
+          trigger: featuredSection,
+          start: "top bottom",
+          end: "bottom top",
+          scrub: speed
+        }
+      });
+    });
+  }
+}
+
 
 });
 
