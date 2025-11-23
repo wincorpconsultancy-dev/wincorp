@@ -32,6 +32,14 @@
   overflow: hidden;
 }
 
+.blog-featured-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
 .blog-image-placeholder {
   width: 100%;
   height: 100%;
@@ -191,6 +199,19 @@
   position: relative;
   overflow: hidden;
   height: 240px;
+}
+
+.blog-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+  transition: transform 0.4s var(--ease);
+}
+
+.blog-card:hover .blog-card-img {
+  transform: scale(1.05);
 }
 
 .blog-card-image .blog-image-placeholder {
