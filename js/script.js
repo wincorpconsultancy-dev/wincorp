@@ -2178,6 +2178,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const target = parseInt(el.getAttribute("data-counter"), 10);
     if (!target || !window.gsap) return;
 
+    // Check if the original text has a suffix (like "+")
+    const originalText = el.textContent.trim();
+    const suffix = originalText.replace(/\d/g, '').trim();
+
     gsap.fromTo(
       el,
       { innerText: 0 },
@@ -2190,6 +2194,9 @@ document.addEventListener("DOMContentLoaded", function () {
           trigger: el,
           start: "top 85%",
           once: true
+        },
+        onUpdate: function() {
+          el.innerText = Math.round(el.innerText) + suffix;
         }
       }
     );
