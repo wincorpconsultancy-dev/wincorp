@@ -1697,6 +1697,18 @@
 			font-size: 0.9rem;
 		}
 
+		.footer-copy small a {
+			color: #ffffff;
+			text-decoration: underline;
+			text-underline-offset: 3px;
+			transition: all 0.2s ease;
+		}
+
+		.footer-copy small a:hover {
+			text-decoration-thickness: 2px;
+			opacity: 0.9;
+		}
+
 		@media (min-width: 640px) {
 			.footer-inner {
 				gap: 40px;
