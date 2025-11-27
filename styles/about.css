@@ -967,6 +967,11 @@
   grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.4fr);
   gap: 40px;
   align-items: center;
+  margin-bottom: 80px;
+}
+
+.founder-inner:last-child {
+  margin-bottom: 0;
 }
 
 /* LEFT – simple framed portrait */
